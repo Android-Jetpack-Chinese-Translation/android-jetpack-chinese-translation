@@ -5,8 +5,8 @@
 
 ## 目录
 
-- ANDROID_JETPACK
-    - [A_Overview.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/ANDROID_JETPACK/A_Overview.md)
+- ANDROID JETPACK
+    - [A. 概述](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/ANDROID_JETPACK/A_Overview.md) by [naco_siren](https://github.com/naco-siren)
     - B_Get_started
         - [1. “Hello, Jetpack”：开发您的第一个 Jetpack 应用](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/ANDROID_JETPACK/B_Get_started/1_Build_your_first_Android_Jetpack_app.md) by [naco_siren](https://github.com/naco-siren)
         - [2_Guide_to_app_architecture.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/ANDROID_JETPACK/B_Get_started/2_Guide_to_app_architecture.md)
@@ -156,3 +156,5 @@
                 - [3_20_1_Overview.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_20_Slices/3_20_1_Overview.md)
                 - [3_20_2_Getting_started.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_20_Slices/3_20_2_Getting_started.md)
                 - [3_20_3_Slice_templates.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_20_Slices/3_20_3_Slice_templates.md)
+
+

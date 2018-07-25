@@ -1,5 +1,5 @@
 # Android KTX
-> 原文链接：[Android KTX  |  Android Developers](https://developer.android.com/kotlin/ktx)  
+> 原文链接：[Android KTX  |  Android Developers](https://developer.android.google.cn/kotlin/ktx)  
 
 Android KTX 是 Android Jetpack 里一个 Kotlin 的扩展库。它优化了 Kotlin 对 Jetpack 和 Android 原生 API 的调用，借助 Kotlin 语言中扩展函数/属性、lambda 表达式、命名参数、默认参数等一系列的功能，使 Kotlin 在 Android 的开发过程中变得更加简洁、愉快和自然。Android KTX 没有在已有的 Android API 的基础上增加任何新的功能。
 
@@ -128,3 +128,5 @@ supportFragmentManager.transaction(allowStateLoss = true) {
 
 ## 反馈
 Android KTX 现在还处于 Alpha 阶段。我们会在 Jetpack 中持续添加新的 Kotlin 扩展函数。如果你想要报告问题或提出新功能的要求，请在 Android KTX 的[问题追踪表](https://issuetracker.google.com/issues/new?component=396204&template=1082185 "问题追踪表")里提交新的问题
+
+
