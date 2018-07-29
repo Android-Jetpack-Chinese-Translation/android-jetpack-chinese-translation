@@ -7,9 +7,9 @@
 
 - ANDROID JETPACK
     - [A. 概述](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/ANDROID_JETPACK/A_Overview.md) by [naco_siren](https://github.com/naco-siren)
-    - B_Get_started
+    - B. 做好准备
         - [1. “Hello, Jetpack”：开发您的第一个 Jetpack 应用](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/ANDROID_JETPACK/B_Get_started/1_Build_your_first_Android_Jetpack_app.md) by [naco_siren](https://github.com/naco-siren)
-        - [2_Guide_to_app_architecture.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/ANDROID_JETPACK/B_Get_started/2_Guide_to_app_architecture.md)
+        - [2. 应用架构指南](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/ANDROID_JETPACK/B_Get_started/2_Guide_to_app_architecture.md) by [naco_siren](https://github.com/naco-siren)
         - [3_Release_notes.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/ANDROID_JETPACK/B_Get_started/3_Release_notes.md)
 - PLATFORM
     - D_Libraries
