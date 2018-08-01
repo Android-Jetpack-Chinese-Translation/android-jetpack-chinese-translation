@@ -11,57 +11,23 @@
         - [1. “Hello, Jetpack”：开发您的第一个 Jetpack 应用](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/ANDROID_JETPACK/B_Get_started/1_Build_your_first_Android_Jetpack_app.md) by [naco_siren](https://github.com/naco-siren)
         - [2. 应用架构指南](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/ANDROID_JETPACK/B_Get_started/2_Guide_to_app_architecture.md) by [naco_siren](https://github.com/naco-siren)
 - PLATFORM
-    - D. 库
-        - [1. 概述](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/1_Overview.md) by [naco_siren](https://github.com/naco-siren)
-        - 2_Architecture_Components
-            - [2_1_Overview.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/2_Architecture_Components/2_1_Overview.md)
-            - [2_2_Adding_Components_to_your_Project.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/2_Architecture_Components/2_2_Adding_Components_to_your_Project.md)
-            - [2_3_Handling_Lifecycles.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/2_Architecture_Components/2_3_Handling_Lifecycles.md)
-            - [2_4_LiveData.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/2_Architecture_Components/2_4_LiveData.md)
-            - [2_5_ViewModel.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/2_Architecture_Components/2_5_ViewModel.md)
-            - [2_6_Saving_States.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/2_Architecture_Components/2_6_Saving_States.md)
-            - [2_7_Room_Persistence_Library.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/2_Architecture_Components/2_7_Room_Persistence_Library.md)
-            - 2_8_Paging_library
-                - [2_8_1_Overview.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/2_Architecture_Components/2_8_Paging_library/2_8_1_Overview.md)
-                - [2_8_2_UI_Components_and_Considerations.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/2_Architecture_Components/2_8_Paging_library/2_8_2_UI_Components_and_Considerations.md)
-                - [2_8_3_Data_Components_and_Considerations.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/2_Architecture_Components/2_8_Paging_library/2_8_3_Data_Components_and_Considerations.md)
-            - 2_9_Navigation
-                - [2_9_1_The_Navigation_Component.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/2_Architecture_Components/2_9_Navigation/2_9_1_The_Navigation_Component.md)
-                - [2_9_2_Principles_of_Navigation.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/2_Architecture_Components/2_9_2_Principles_of_Navigation.md)
-                - [2_9_3_Implement_Navigation.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/2_Architecture_Components/2_9_3_Implement_Navigation.md)
-                - [2_9_4_Migrate_to_the_Navigation_Component.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/2_Architecture_Components/2_9_4_Migrate_to_the_Navigation_Component.md)
-                - [2_9_5_Add_support_for_new_destination.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/2_Architecture_Components/2_9_5_Add_support_for_new_destination.md)
-                - [2_9_6_Implement_conditional_navigation.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/2_Architecture_Components/2_9_6_Implement_conditional_navigation)
-                - [2_9_7_Identify_a_common_destination.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/2_Architecture_Components/2_9_7_Identify_a_common_destination.md)
-            - [2_10_WorkManager.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/2_Architecture_Components/2_10_WorkManager.md)
+    - D. 库        
+        - 1_Support_Library_Overview.md
+        - 2_Features.md
+        - 3_Packages.md
+        - 4_Setup.md
+        - 6_AndroidX
+            - 6_1_Release_Notes.md
+            - 6_2_Refactoring.md
 
-        - 3_Support_Library
-            - [3_1_Overview.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/3_Support_Library/3_1_Overview.md)
-            - [3_2_Features.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/3_Support_Library/3_2_Features.md)
-            - [3_3_Packages.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/3_Support_Library/3_3_Packages.md)
-            - [3_4_Setup.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/3_Support_Library/3_4_Setup.md)
-            - 3_5_Revision_History
-                - [3_5_1_Recent_Revisions.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/3_Support_Library/3_5_Revision_History/3_5_1_Recent_Revisions.md)
-                - [3_5_2_Revision_Archive.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/3_Support_Library/3_5_Revision_History/3_5_2_Revision_Archive.md)
-            - 3_6_AndroidX
-                - [3_6_1_Release_Notes.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/3_Support_Library/3_6_AndroidX/3_6_1_Release_Notes.md)
-                - [3_6_2_Refactoring.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/3_Support_Library/3_6_AndroidX/3_6_2_Refactoring.md)
-        - 4_Data_Binding_Library
-            - [4_1_Overview.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/4_Data_Binding_Library/4_1_Overview.md)
-            - [4_2_Get_Started.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/4_Data_Binding_Library/4_2_Get_Started.md)
-            - [4_3_Layouts_and_binding_expressions.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/4_Data_Binding_Library/4_3_Layouts_and_binding_expressions.md)
-            - [4_4_Work_with_observable_data_objects.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/4_Data_Binding_Library/4_4_Work_with_observable_data_objects.md)
-            - [4_5_Generated_binding_classes.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/4_Data_Binding_Library/4_5_Generated_binding_classes.md)
-            - [4_6_Binding_adapters.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/4_Data_Binding_Library/4_6_Binding_adapters.md)
-            - [4_7_Bind_layout_views_to_Architecture_Components.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/4_Data_Binding_Library/4_7_Bind_layout_views_to_Architecture_Components.md)
-    - E_Kotlin
+    - E. Kotlin
         - [1_Kotlin_and_Android.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/E_Kotlin/1_Kotlin_and_Android.md)
         - [2_Get_Started_with_Kotlin.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/E_Kotlin/2_Get_Started_with_Kotlin.md)
         - [3_Kotlin_on_Android_FAQ.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/E_Kotlin/3_Kotlin_on_Android_FAQ.md)
         - [4. Android KTX](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/E_Kotlin/4_Android_KTX.md) by [anna_y](https://github.com/Nevvea7)
         - [5_Resources_to_Learn_Kotlin.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/E_Kotlin/5_Resources_to_Learn_Kotlin.md)
 - DOCS
-    - B_Guides
+    - B. Guides
         - 1_App_Basics
             - 1_6_App_Permissions
                 - [1_6_1_Overview.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/1_App_Basics/1_6_App_Permissions/1_6_1_Overview.md)
@@ -75,13 +41,42 @@
                 - [2_4_3_Providing_Audio_for_Auto.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/2_Devices/2_4_Android_Auto/2_4_3_Providing_Audio_for_Auto.md)
                 - [2_4_4_Messaging_for_Auto.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/2_Devices/2_4_Android_Auto/2_4_4_Messaging_for_Auto.md)
                 - [2_4_5_Testing_for_Auto.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/2_Devices/2_4_Android_Auto/2_4_5_Testing_for_Auto.md)
-        - 3_Core_topics
+        - 3. 核心课题
             - 3_1_Activities
                 - 3_1_7_Fragments
                     - [3_1_7_1_Overview.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_1_Activities/3_1_7_Fragments/3_1_7_1_Overview.md)
                     - [3_1_7_2_Creating_a_fragment.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_1_Activities/3_1_7_Fragments/3_1_7_2_Creating_a_fragment.md)
                     - [3_1_7_3_Building_a_flexible_UI.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_1_Activities/3_1_7_Fragments/3_1_7_3_Building_a_flexible_UI.md)
                     - [3_1_7_4_Communicating_with_other_fragments.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_1_Activities/3_1_7_Fragments/3_1_7_4_Communicating_with_other_fragments.md)
+            - 3.2 架构组件
+                - [3.2.1. 概述](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_1_Overview.md) by [naco_siren](https://github.com/naco-siren)
+                - 3_2_2_Adding_Components_to_your_Project.md
+                - 3_2_3_Data_Binding_Library
+                    - 3_2_3_1_Overview.md
+                    - 3_2_3_2_Get_Started.md
+                    - 3_2_3_3_Layouts_and_binding_expressions.md
+                    - 3_2_3_4_Work_with_observable_data_objects.md
+                    - 3_2_3_5_Generated_binding_classes.md
+                    - 3_2_3_6_Binding_adapters.md
+                    - 3_2_3_7_Bind_layout_views_to_Architecture_Components.md
+                - 3_2_4_Handling_Lifecycles.md
+                - 3_2_5_LiveData.md
+                - 3_2_6_Navigation
+                    - 3_2_6_1_The_Navigation_Component.md
+                    - 3_2_6_2_Principles_of_Navigation.md
+                    - 3_2_6_3_Implement_Navigation.md
+                    - 3_2_6_4_Migrate_to_the_Navigation_Component.md
+                    - 3_2_6_5_Add_support_for_new_destination.md
+                    - 3_2_6_6_Implement_conditional_navigation.md
+                    - 3_2_6_7_Identify_a_common_destination.md
+                - 3_2_7_Paging_library
+                    - 3_2_7_1_Overview.md
+                    - 3_2_7_2_UI_Components_and_Considerations.md
+                    - 3_2_7_3_Data_Components_and_Considerations.md
+                - 3_2_8_Room_Persistence_Library.md
+                - 3_2_9_ViewModel.md
+                - 3_2_10_WorkManager.md
+                - 3_2_11_Saving_States.md
             - 3_3_User_interface_&_navigation
                 - 3_3_2_Layouts
                     - [3_3_2_1_Overview.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_3_User_interface_%26_navigation/3_3_2_Layouts/3_3_2_1_Overview.md)
