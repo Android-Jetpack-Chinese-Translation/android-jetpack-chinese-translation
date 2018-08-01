@@ -12,7 +12,7 @@
         - [2. 应用架构指南](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/ANDROID_JETPACK/B_Get_started/2_Guide_to_app_architecture.md) by [naco_siren](https://github.com/naco-siren)
 - PLATFORM
     - D. 库        
-        - 1_Support_Library_Overview.md
+        - [1. 支持库概览](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/1_Support_Library_Overview.md) by [naco_siren](https://github.com/naco-siren)
         - 2_Features.md
         - 3_Packages.md
         - 4_Setup.md
