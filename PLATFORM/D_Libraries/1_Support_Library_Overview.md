@@ -1,11 +1,11 @@
-# 支持库
+# 支持库概览
 > 原文链接：[Support Library |  Android Developers](https://developer.android.google.cn/topic/libraries/support-library/)
 
 在开发兼容多个 API 版本的应用时，为了在更旧的 Android 版本上提供新的特性、或者至少优雅地达成同样的效果，您可能需要一种标准化的解决方案。与其专门写代码来处理老版本的情况，您不妨利用这些支持库来提供一个兼容层。此外，支持库还额外提供了标准的架构 API 所没有的便利类和特性，用来便利开发流程并兼容更多的设备。
 
 支持库最开始只是应用开发的单个二进制库，但现在已经演化成了整整一套类库——其中不乏我们强烈推荐您使用的库，很多甚至是必不可少的。
 
-本小节提供了支持库的简介，以便您理解其组件和有效使用的方式。
+本小节对支持库进行了简单的介绍，以便您理解其组件和有效使用的方式。
 
 > **警告**：从支持库版本 26.0.0（2017年7月）开始，大多数支持库所向后兼容的最低 API 版本已提升至 Android 4.0（API 版本 14）。欲了解更多信息，请参阅本小节的 [Version Support and Package Names](https://developer.android.google.cn/topic/libraries/support-library/#api-versions)。
 
@@ -49,7 +49,7 @@
 gradle -q dependencies your-app-project:dependencies
 ```
 
-欲了解使用 Gradle 为您的项目添加支持库的更多信息，请参阅[支持库设置](https://developer.android.google.cn/topic/libraries/support-library/features) *（请选择简体中文）*。欲了解更多使用 Gradle 的信息，请参阅[配置构建](https://developer.android.google.cn/studio/build/) *（请选择简体中文）*。
+欲了解使用 Gradle 为您的项目添加支持库的更多信息，请参阅[支持库设置](https://developer.android.google.cn/topic/libraries/support-library/features)*（请选择简体中文）*。欲了解更多使用 Gradle 的信息，请参阅[配置构建](https://developer.android.google.cn/studio/build/)*（请选择简体中文）*。
 
 请注意，*所有* Android 支持库同样依赖于某个特定的平台版本，例如最近发布的支持库需要基于 Android 4.0 （API 版本 14）或更高。
 
