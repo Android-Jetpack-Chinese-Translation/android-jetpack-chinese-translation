@@ -15,39 +15,39 @@
         - [1. 支持库概览](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/1_Support_Library_Overview.md) by [naco-siren](https://github.com/naco-siren)
         - [2. 支持库特性](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/2_Features.md) by [naco-siren](https://github.com/naco-siren)
         - 3_Packages.md
-        - 4_Setup.md
+        - [4. 支持库设置](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/2_Features.md)
         - 6_AndroidX
             - 6_1_Release_Notes.md
             - 6_2_Refactoring.md
 
     - E. Kotlin
-        - [1_Kotlin_and_Android.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/E_Kotlin/1_Kotlin_and_Android.md)
-        - [2_Get_Started_with_Kotlin.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/E_Kotlin/2_Get_Started_with_Kotlin.md)
-        - [3_Kotlin_on_Android_FAQ.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/E_Kotlin/3_Kotlin_on_Android_FAQ.md)
+        - 1_Kotlin_and_Android.md
+        - 2_Get_Started_with_Kotlin.md
+        - 3_Kotlin_on_Android_FAQ.md
         - [4. Android KTX](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/E_Kotlin/4_Android_KTX.md) by [anna_y](https://github.com/Nevvea7)
-        - [5_Resources_to_Learn_Kotlin.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/E_Kotlin/5_Resources_to_Learn_Kotlin.md)
+        - 5_Resources_to_Learn_Kotlin.md
 - DOCS
     - B. Guides
         - 1_App_Basics
             - 1_6_App_Permissions
-                - [1_6_1_Overview.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/1_App_Basics/1_6_App_Permissions/1_6_1_Overview.md)
-                - [1_6_2_Request_app_permissions.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/1_App_Basics/1_6_App_Permissions/1_6_2_Request_app_permissions.md)
-                - [1_6_3_App_permissions_best_practices.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/1_App_Basics/1_6_App_Permissions/1_6_3_App_permissions_best_practices.md)
-                - [1_6_4_Define_custom_permissions.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/1_App_Basics/1_6_App_Permissions/1_6_4_Define_custom_permissions.md)
+                - 1_6_1_Overview.md
+                - 1_6_2_Request_app_permissions.md
+                - 1_6_3_App_permissions_best_practices.md
+                - 1_6_4_Define_custom_permissions.md
         - 2_Devices
             - 2_4_Android_Auto
-                - [2_4_1_Overview.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/2_Devices/2_4_Android_Auto/2_4_1_Overview.md)
-                - [2_4_2_Getting_Started_with_Auto.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/2_Devices/2_4_Android_Auto/2_4_2_Getting_Started_with_Auto.md)
-                - [2_4_3_Providing_Audio_for_Auto.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/2_Devices/2_4_Android_Auto/2_4_3_Providing_Audio_for_Auto.md)
-                - [2_4_4_Messaging_for_Auto.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/2_Devices/2_4_Android_Auto/2_4_4_Messaging_for_Auto.md)
-                - [2_4_5_Testing_for_Auto.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/2_Devices/2_4_Android_Auto/2_4_5_Testing_for_Auto.md)
+                - 2_4_1_Overview.md
+                - 2_4_2_Getting_Started_with_Auto.md
+                - 2_4_3_Providing_Audio_for_Auto.md
+                - 2_4_4_Messaging_for_Auto.md
+                - 2_4_5_Testing_for_Auto.md
         - 3. 核心课题
             - 3_1_Activities
                 - 3_1_7_Fragments
-                    - [3_1_7_1_Overview.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_1_Activities/3_1_7_Fragments/3_1_7_1_Overview.md)
-                    - [3_1_7_2_Creating_a_fragment.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_1_Activities/3_1_7_Fragments/3_1_7_2_Creating_a_fragment.md)
-                    - [3_1_7_3_Building_a_flexible_UI.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_1_Activities/3_1_7_Fragments/3_1_7_3_Building_a_flexible_UI.md)
-                    - [3_1_7_4_Communicating_with_other_fragments.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_1_Activities/3_1_7_Fragments/3_1_7_4_Communicating_with_other_fragments.md)
+                    - 3_1_7_1_Overview.md
+                    - 3_1_7_2_Creating_a_fragment.md
+                    - 3_1_7_3_Building_a_flexible_UI.md
+                    - 3_1_7_4_Communicating_with_other_fragments.md
             - 3.2 架构组件
                 - [3.2.1. 概述](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_1_Overview.md) by [naco-siren](https://github.com/naco-siren)
                 - 3_2_2_Adding_Components_to_your_Project.md
@@ -79,48 +79,48 @@
                 - 3_2_11_Saving_States.md
             - 3_3_User_interface_&_navigation
                 - 3_3_2_Layouts
-                    - [3_3_2_1_Overview.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_3_User_interface_%26_navigation/3_3_2_Layouts/3_3_2_1_Overview.md)
-                    - [3_3_2_2_Build_a_responsive_UI_with_ConstraintLayout.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_3_User_interface_%26_navigation/3_3_2_Layouts/3_3_2_2_Build_a_responsive_UI_with_ConstraintLayout.md)
-                    - [3_3_2_3_Create_a_list_with_RecyclerView.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_3_User_interface_%26_navigation/3_3_2_Layouts/3_3_2_3_Create_a_list_with_RecyclerView.md)
-                    - [3_3_2_4_Create_a_card_based_layout.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_3_User_interface_%26_navigation/3_3_2_Layouts/3_3_2_4_Create_a_card_based_layout.md)
-                    - [3_3_2_5_Implementing_adpative_UI_flows.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_3_User_interface_%26_navigation/3_3_2_Layouts/3_3_2_5_Implementing_adpative_UI_flows.md)
+                    - 3_3_2_1_Overview.md
+                    - 3_3_2_2_Build_a_responsive_UI_with_ConstraintLayout.md
+                    - 3_3_2_3_Create_a_list_with_RecyclerView.md)
+                    - 3_3_2_4_Create_a_card_based_layout.md
+                    - 3_3_2_5_Implementing_adpative_UI_flows.md
                     - 3_3_2_6_Improving_layout_performance
-                        - [3_3_2_6_1_Overview.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_3_User_interface_%26_navigation/3_3_2_Layouts/3_3_2_6_Improving_layout_performance/3_3_2_6_1_Overview.md)
-                        - [3_3_2_6_2_Optimizing_layout_hierarchies.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_3_User_interface_%26_navigation/3_3_2_Layouts/3_3_2_6_Improving_layout_performance/3_3_2_6_2_Optimizing_layout_hierarchies.md)
-                        - [3_3_2_6_3_Re-using_layouts_with_&lt;include&gt;.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_3_User_interface_%26_navigation/3_3_2_Layouts/3_3_2_6_Improving_layout_performance/3_3_2_6_3_Re-using_layouts_with_%3Cinclude%3E.md)
-                        - [3_3_2_6_4_Delayed_loading_of_Views.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_3_User_interface_%26_navigation/3_3_2_Layouts/3_3_2_6_Improving_layout_performance/3_3_2_6_4_Delayed_loading_of_Views.md)
-                        - [3_3_2_6_5_Making_ListView_scrolling_smooth.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_3_User_interface_%26_navigation/3_3_2_Layouts/3_3_2_6_Improving_layout_performance/3_3_2_6_5_Making_ListView_scrolling_smooth.md)
-                    - [3_3_2_7_Linear_Layout.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_3_User_interface_%26_navigation/3_3_2_Layouts/3_3_2_7_Linear_Layout.md)
-                    - [3_3_2_8_Grid_View.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_3_User_interface_%26_navigation/3_3_2_Layouts/3_3_2_8_Grid_View.md)
+                        - 3_3_2_6_1_Overview.md
+                        - 3_3_2_6_2_Optimizing_layout_hierarchies.md
+                        - 3_3_2_6_3_Re-using_layouts_with_&lt;include&gt;.md
+                        - 3_3_2_6_4_Delayed_loading_of_Views.md
+                        - 3_3_2_6_5_Making_ListView_scrolling_smooth.md
+                    - 3_3_2_7_Linear_Layout.md
+                    - 3_3_2_8_Grid_View.md
                     - 3_3_2_9_Custom_view_components
-                        - [3_3_2_9_1_Overview.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_3_User_interface_%26_navigation/3_3_2_Layouts/3_3_2_9_Custom_view_components/3_3_2_9_1_Overview.md)
-                        - [3_3_2_9_2_Creating_a_view_class.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_3_User_interface_%26_navigation/3_3_2_Layouts/3_3_2_9_Custom_view_components/3_3_2_9_2_Creating_a_view_class.md)
-                        - [3_3_2_9_3_Implementing_custom_drawing.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_3_User_interface_%26_navigation/3_3_2_Layouts/3_3_2_9_Custom_view_components/)
-                        - [3_3_2_9_4_Making_view_interactive.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_3_User_interface_%26_navigation/3_3_2_Layouts/3_3_2_9_Custom_view_components/3_3_2_9_4_Making_view_interactive.md)
-                        - [3_3_2_9_5_Optimizing_the_view.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_3_User_interface_%26_navigation/3_3_2_Layouts/3_3_2_9_Custom_view_components/3_3_2_9_5_Optimizing_the_view.md)
+                        - 3_3_2_9_1_Overview.md
+                        - 3_3_2_9_2_Creating_a_view_class.md
+                        - 3_3_2_9_3_Implementing_custom_drawing.md
+                        - 3_3_2_9_4_Making_view_interactive.md
+                        - 3_3_2_9_5_Optimizing_the_view.md
                 - 3_3_3_Look_and_feel
                     - 3_3_3_6_Text
-                        - [3_3_3_6_4_Emoji_compatibility.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_3_User_interface_%26_navigation/3_3_3_Look_and_feel/3_3_3_6_Text/3_3_3_6_4_Emoji_compatibility.md)
+                        - 3_3_3_6_4_Emoji_compatibility.md
             - 3_4_Animations_&_transitions
-                - [3_4_1_Overview.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_4_Animations_%26_transitions/3_4_1_Overview.md)
-                - [3_4_2_Animations_overview.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_4_Animations_%26_transitions/3_4_2_Animations_overview.md)
-                - [3_4_3_Property_animation_overview.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_4_Animations_%26_transitions/3_4_3_Property_animation_overview.md)
-                - [3_4_4_Animate_drawable_graphics.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_4_Animations_%26_transitions/3_4_4_Animate_drawable_graphics.md)
-                - [3_4_5_Reveal_or_hide_a_view_using_animation.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_4_Animations_%26_transitions/3_4_5_Reveal_or_hide_a_view_using_animation.md)
-                - [3_4_6_Move_a_view_with_animation.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_4_Animations_%26_transitions/3_4_6_Move_a_view_with_animation.md)
-                - [3_4_7_Move_views_using_a_fling_animation.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_4_Animations_%26_transitions/3_4_7_Move_views_using_a_fling_animation.md)
-                - [3_4_8_Enlarge_a_view_using_a_zoom_animation.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_4_Animations_%26_transitions/3_4_8_Enlarge_a_view_using_a_zoom_animation.md)
-                - [3_4_9_Animate_movement_using_spring_physics.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_4_Animations_%26_transitions/3_4_9_Animate_movement_using_spring_physics.md)
-                - [3_4_10_Auto_animate_layout_updates.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_4_Animations_%26_transitions/3_4_10_Auto_animate_layout_updates.md)
-                - [3_4_11_Animate_layout_changes_using_a_transition.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_4_Animations_%26_transitions/3_4_11_Animate_layout_changes_using_a_transition.md)
-                - [3_4_12_Create_a_custom_transition_animation.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_4_Animations_%26_transitions/3_4_12_Create_a_custom_transition_animation.md)
-                - [3_4_13_Start_an_activity_using_an_animation.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_4_Animations_%26_transitions/3_4_13_Start_an_activity_using_an_animation.md)
+                - 3_4_1_Overview.md
+                - 3_4_2_Animations_overview.md
+                - 3_4_3_Property_animation_overview.md
+                - 3_4_4_Animate_drawable_graphics.md
+                - 3_4_5_Reveal_or_hide_a_view_using_animation.md
+                - 3_4_6_Move_a_view_with_animation.md
+                - 3_4_7_Move_views_using_a_fling_animation.md
+                - 3_4_8_Enlarge_a_view_using_a_zoom_animation.md
+                - 3_4_9_Animate_movement_using_spring_physics.md
+                - 3_4_10_Auto_animate_layout_updates.md
+                - 3_4_11_Animate_layout_changes_using_a_transition.md
+                - 3_4_12_Create_a_custom_transition_animation.md
+                - 3_4_13_Start_an_activity_using_an_animation.md
             - 3_5_Images_&_graphics
                 - 3_5_1_Overview.md
                 - 3_5_2_Drawables_overview.md
                 - 3_5_3_Vector_drawables_overview.md
                 - 3_5_4_Handling_bitmaps.md
-                - [3_5_5_Selecting_colors_with_the_palette_API.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_5_Images_%26_graphics/3_5_5_Selecting_colors_with_the_palette_API.md)
+                - 3_5_5_Selecting_colors_with_the_palette_API.md
                 - 3_5_6_Reducing_image_download_sizes.md
                 - 3_5_7_Hardware_acceleration.md
                 - 3_5_8_OpenGL_ES.md
@@ -139,16 +139,16 @@
                     - 3_5_10_4_Analyze_with_profile_GPU_rendering.md
                 - 3_5_11_Enhance_graphics_with_wide_color_content.md
             - 3_6_Audio_&_Video
-                - [3_6_6_MediaPlayer_Overview.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_6_Audio_%26_Video/3_6_6_MediaPlayer_Overview.md)
+                - 3_6_6_MediaPlayer_Overview.md
             - 3_8_App_data_&_files
                 - 3_8_6_Sharing_simple_data
-                    - [3_8_6_1_Overview.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_8_App_data_%26_files/3_8_6_Sharing_simple_data/3_8_6_1_Overview.md)
-                    - [3_8_6_2_Sending_simple_data_to_other_apps.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_8_App_data_%26_files/3_8_6_Sharing_simple_data/3_8_6_2_Sending_simple_data_to_other_apps.md)
-                    - [3_8_6_3_Receiving_simple_data_from_other_apps.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_8_App_data_%26_files/3_8_6_Sharing_simple_data/3_8_6_3_Receiving_simple_data_from_other_apps.md)
-                    - [3_8_6_4_Adding_an_easy_share_action.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_8_App_data_%26_files/3_8_6_Sharing_simple_data/3_8_6_4_Adding_an_easy_share_action)
+                    - 3_8_6_1_Overview.md
+                    - 3_8_6_2_Sending_simple_data_to_other_apps.md
+                    - 3_8_6_3_Receiving_simple_data_from_other_apps.md
+                    - 3_8_6_4_Adding_an_easy_share_action.md
             - 3_20_Slices
-                - [3_20_1_Overview.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_20_Slices/3_20_1_Overview.md)
-                - [3_20_2_Getting_started.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_20_Slices/3_20_2_Getting_started.md)
-                - [3_20_3_Slice_templates.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_20_Slices/3_20_3_Slice_templates.md)
+                - 3_20_1_Overview.md
+                - 3_20_2_Getting_started.md
+                - 3_20_3_Slice_templates.md
 
 
