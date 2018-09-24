@@ -16,9 +16,9 @@
         - [2. 支持库特性](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/2_Features.md) by [naco-siren](https://github.com/naco-siren)
         - [3. 支持库包](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/3_Packages.md) by [naco-siren](https://github.com/naco-siren)
         - [4. 支持库设置](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/2_Features.md) by [naco-siren](https://github.com/naco-siren)
-        - 6_AndroidX
-            - 6_1_Release_Notes.md
-            - 6_2_Refactoring.md
+        - 6. AndroidX
+            - [AndroidX 概述](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/6_AndroidX/6_1_AndroidX_Overview.md) by [naco-siren](https://github.com/naco-siren)
+            - [AndroidX 重构](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/6_AndroidX/6_2_Refactoring.md) by [naco-siren](https://github.com/naco-siren)
 
     - E. Kotlin
         - 1_Kotlin_and_Android.md
