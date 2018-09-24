@@ -1,13 +1,13 @@
 # Kotlin 和 Android
 > 原文链接：[Kotlin and Android  |  Android Developers](https://developer.android.google.cn/kotlin/)
 
-现在，您可以用干练、强大、富有表达力的 Kotlin 来开发 Android 应用。而且最棒的是，它可以和 Java 编程语言，以及现有的 Android 运行时框架协同互用（interoperable）。
+现在，您可以用干练、强大、富有表达力的 Kotlin 来开发 Android 应用。而且，最棒的是它可以和 Java 编程语言、以及现有的 Android 运行时框架互用（interoperable）。
 
 #### [开始动手](https://developer.android.google.cn/kotlin/get-started)
 
 ## 现代、安全、表达力强
 
-Kotlin 既精简干练又富有表达力。它含有针对空值（nullability）和不可变性（immutability）的安全特性，让您的应用在缺省条件下也能保持健康高效。
+Kotlin 既精简干练又富有表达力。它含有针对空值（nullability）和不可变性（immutability）的安全特性，让您的应用从一开始就保持健康高效。
 
 ## 更安全的代码
 
@@ -90,7 +90,7 @@ class MainActivity : AppCompatActivity() {
 
 ## 不继承父类却仍能拓展功能
 
-扩展函数（Extension function）和扩展属性（Extension properties）让您在不继承类的情况下也能轻易地扩展它的功能，并且这种扩展代码的调用有着良好的可读性。
+扩展函数（Extension function）和扩展属性（Extension properties）让您在不继承类的情况下也能轻易地扩展它的功能，而且，这种扩展代码的调用有着良好的可读性。
 
 ```kotlin
 // 使用 inflate 函数来扩展 ViewGroup
@@ -107,7 +107,7 @@ override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
 }
 ```
 
-## 和 Java 的完全协同互用
+## 和 Java 的完全互用性
 
 您可以为 Java 项目中随意添加或少或多 Kotlin 代码，因为它是一个和 Java 编程语言可以完全互用的 JVM 语言。
 
