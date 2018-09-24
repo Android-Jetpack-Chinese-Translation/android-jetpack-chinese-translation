@@ -1,7 +1,7 @@
 # Android Jetpack 官方文档 中文翻译
 
 ## 简介
-该项目旨在将[Android Jetpack](https://developer.android.google.cn/jetpack/)文档翻译为简体中文。
+该项目旨在将 [Android Jetpack](https://developer.android.google.cn/jetpack/) 文档翻译为简体中文。
 
 ## 目录
 
@@ -21,7 +21,7 @@
             - [AndroidX 重构](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/6_AndroidX/6_2_Refactoring.md) by [naco-siren](https://github.com/naco-siren)
 
     - Kotlin
-        - 1_Kotlin_and_Android.md
+        - [Kotlin 和 Android](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/E_Kotlin/1_Kotlin_and_Android.md) by [naco-siren](https://github.com/naco-siren)
         - 2_Get_Started_with_Kotlin.md
         - 3_Kotlin_on_Android_FAQ.md
         - [Android KTX](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/E_Kotlin/4_Android_KTX.md) by [anna_y](https://github.com/Nevvea7)

@@ -1,7 +1,7 @@
 # Android Jetpack 官方文档 中文翻译（可选内容）
 
 ## 简介
-该项目旨在将[Android Jetpack](https://developer.android.google.cn/jetpack/)文档翻译为简体中文。
+该项目旨在将 [Android Jetpack](https://developer.android.google.cn/jetpack/) 文档翻译为简体中文。
 
 ## 目录（可选内容）
 谷歌尚未提供以下内容的中文版，可以作为后期补充任务。
