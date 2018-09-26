@@ -23,9 +23,9 @@
     - Kotlin
         - [Kotlin 和 Android](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/E_Kotlin/1_Kotlin_and_Android.md) by [naco-siren](https://github.com/naco-siren)
         - [开始动手在 Android 中使用 Kotlin](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/E_Kotlin/2_Get_Started_with_Kotlin.md) by [naco-siren](https://github.com/naco-siren)
-        - 3_Kotlin_on_Android_FAQ.md
+        - [关于在 Android 中使用 Kotlin 的常见问答](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/E_Kotlin/3_Kotlin_on_Android_FAQ.md) by [naco-siren](https://github.com/naco-siren)
         - [Android KTX](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/E_Kotlin/4_Android_KTX.md) by [anna_y](https://github.com/Nevvea7)
-        - 5_Resources_to_Learn_Kotlin.md
+        - [Kotlin 学习资源](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/E_Kotlin/5_Resources_to_Learn_Kotlin.md)
 - DOCS
     - 向导
         - 核心课题
