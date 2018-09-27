@@ -31,7 +31,7 @@
         - 核心课题
             - 架构组件
                 - [概述](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_1_Overview.md) by [naco-siren](https://github.com/naco-siren)
-                - 3_2_2_Adding_Components_to_your_Project.md
+                - [向您的项目中添加 Android 架构组件](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_2_Adding_Components_to_your_Project.md) by [naco-siren](https://github.com/naco-siren)
                 - 3_2_3_Data_Binding_Library
                     - 3_2_3_1_Overview.md
                     - 3_2_3_2_Get_Started.md
@@ -40,24 +40,27 @@
                     - 3_2_3_5_Generated_binding_classes.md
                     - 3_2_3_6_Binding_adapters.md
                     - 3_2_3_7_Bind_layout_views_to_Architecture_Components.md
-                - 3_2_4_Handling_Lifecycles.md
-                - 3_2_5_LiveData.md
-                - 3_2_6_Navigation
+                - [使用能感知生命周期的组件来处理生命周期](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_4_Handling_Lifecycles.md)
+                - [LiveData](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_5_LiveData.md)
+                - Navigation
                     - 3_2_6_1_The_Navigation_Component.md
                     - 3_2_6_2_Principles_of_Navigation.md
-                    - 3_2_6_3_Implement_Navigation.md
+                    - [用 Navigation 架构组件来实现导航](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_6_Navigation/3_2_6_3_Implement_Navigation_with_the_Navigation_Architecture_Component.md)
                     - 3_2_6_4_Migrate_to_the_Navigation_Component.md
                     - 3_2_6_5_Add_support_for_new_destination.md
                     - 3_2_6_6_Implement_conditional_navigation.md
                     - 3_2_6_7_Identify_a_common_destination.md
-                - 3_2_7_Paging_library
-                    - 3_2_7_1_Overview.md
+                - Paging
+                    - [Paging 库概览](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_7_Paging_library/3_2_7_1_Overview.md)
                     - 3_2_7_2_UI_Components_and_Considerations.md
                     - 3_2_7_3_Data_Components_and_Considerations.md
-                - 3_2_8_Room_Persistence_Library.md
-                - 3_2_9_ViewModel.md
-                - 3_2_10_WorkManager.md
-                - 3_2_11_Saving_States.md
+                - [Room 数据持久化](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_8_Room_Persistence_Library.md)
+                - [ViewModel](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_9_ViewModel.md)
+                - WorkManager
+                    - [使用 WorkManager 来计划任务](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_10_WorkManager/3_2_10_1_Overview.md)
+                    - [WorkManager 基础](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_10_WorkManager/3_2_10_2_Basics.md)
+                    - [WorkManager 进阶话题](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_10_WorkManager/3_2_10_3_Advanced.md)
+                - [保存 UI 状态](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_11_Saving_States.md)
             - 3_20_Slices
                 - 3_20_1_Overview.md
                 - 3_20_2_Getting_started.md

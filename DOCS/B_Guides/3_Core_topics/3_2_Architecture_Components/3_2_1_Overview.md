@@ -11,7 +11,7 @@ Android 架构组件是一组帮助您构建具有稳健性、可测试性、可
 
 ## 轻松管理您应用的生命周期
 
-生命周期感知（lifecycle-aware）的新的组件能帮您管理 activity 和 fragment 的生命周期：使用 [LiveData](https://developer.android.google.cn/topic/libraries/architecture/livedata)、[ViewModel](https://developer.android.google.cn/topic/libraries/architecture/viewmodel)、[LifecycleObserver](https://developer.android.google.cn/topic/libraries/architecture/lifecycle)、[LifecycleOwner](https://developer.android.google.cn/topic/libraries/architecture/lifecycle)，您的应用能够平稳渡过配置变更、避免内存泄漏，还能轻松将数据载入 UI。
+生命周期感知（lifecycle-aware）的新的组件能帮您管理 activity 和 fragment 的生命周期：使用 [LiveData](https://developer.android.google.cn/topic/libraries/architecture/livedata)、[ViewModel](https://developer.android.google.cn/topic/libraries/architecture/viewmodel)、[LifecycleObserver](https://developer.android.google.cn/topic/libraries/architecture/lifecycle)、[LifecycleOwner](https://developer.android.google.cn/topic/libraries/architecture/lifecycle)，您的应用能够平稳渡过配置变更（configuration change）、避免内存泄漏，还能轻松将数据载入 UI。
 
 #### [试试这个 Codelab](https://codelabs.developers.google.com/codelabs/android-lifecycles/#0)
 
