@@ -32,15 +32,15 @@
             - 架构组件
                 - [概述](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_1_Overview.md) by [naco-siren](https://github.com/naco-siren)
                 - [向您的项目中添加 Android 架构组件](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_2_Adding_Components_to_your_Project.md) by [naco-siren](https://github.com/naco-siren)
-                - 3_2_3_Data_Binding_Library
-                    - 3_2_3_1_Overview.md
+                - 数据绑定 
+                    - [概览](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_3_Data_Binding_Library/3_2_3_1_Overview.md)
                     - 3_2_3_2_Get_Started.md
                     - 3_2_3_3_Layouts_and_binding_expressions.md
                     - 3_2_3_4_Work_with_observable_data_objects.md
                     - 3_2_3_5_Generated_binding_classes.md
                     - 3_2_3_6_Binding_adapters.md
                     - 3_2_3_7_Bind_layout_views_to_Architecture_Components.md
-                - [使用能感知生命周期的组件来处理生命周期](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_4_Handling_Lifecycles.md)
+                - [使用能感知生命周期的组件来处理生命周期](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_4_Handling_Lifecycles.md) by [naco-siren](https://github.com/naco-siren)
                 - [LiveData](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_5_LiveData.md)
                 - Navigation
                     - 3_2_6_1_The_Navigation_Component.md
