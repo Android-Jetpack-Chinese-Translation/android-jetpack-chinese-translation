@@ -5,7 +5,7 @@ Android 架构组件是一组帮助您构建具有稳健性、可测试性、可
 
 已推出 1.0 稳定版。
 
-#### [开始动手](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/2_Architecture_Components/2_2_Adding_Components_to_your_Project.md)
+#### [开始动手](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_2_Adding_Components_to_your_Project.md)
 
 #### [观看视频](https://www.youtube.com/watch?v=vOJCrbr144o)
 

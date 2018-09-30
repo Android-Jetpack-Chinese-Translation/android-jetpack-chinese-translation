@@ -48,7 +48,7 @@ implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
 
 ## 生命周期
 
-包括了 [LiveData](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_5_LiveData.md) 和 [ViewModel](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components、3_2_9_ViewModel.md) 在内的有关[处理生命周期](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_4_Handling_Lifecycles.md)的依赖。
+包括了 [LiveData](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_5_LiveData.md) 和 [ViewModel](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_9_ViewModel.md) 在内的有关[处理生命周期](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_4_Handling_Lifecycles.md)的依赖。
 
 ```gradle
 dependencies {
@@ -106,7 +106,7 @@ dependencies {
 
 ## Room
 
-包括了 [测试 Room 迁移](https://developer.android.google.cn/topic/libraries/architecture/room.html#db-migration-testing) 和 [Room RxJava](https://developer.android.google.cn/training/data-storage/room/accessing-data#query-rxjava) 在内的有关 [Room 数据持久化库](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_8_Room_Persistence_Library.md)的依赖。
+包括了 [测试 Room 迁移](https://developer.android.google.cn/topic/libraries/architecture/room.html#db-migration-testing) 和 [Room RxJava](https://developer.android.google.cn/training/data-storage/room/accessing-data#query-rxjava) 在内的有关 [Room 数据持久化库](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_8_Room_Persistence_Library.md)的依赖。
 
 ```gradle
 dependencies {
@@ -221,7 +221,7 @@ apply plugin: "androidx.navigation.safeargs"
 
 ## WorkManager
 
-有关 [WorkManager](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_10_WorkManager/3_2_10_1_Overview.md) 的依赖。
+有关 [WorkManager](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_10_WorkManager/3_2_10_1_Overview.md) 的依赖。
 
 ```gradle
 dependencies {

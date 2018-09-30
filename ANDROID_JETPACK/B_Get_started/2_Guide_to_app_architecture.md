@@ -42,7 +42,7 @@
 
 我们将基于 **ViewModel** 创建一个 `UserProfileViewModel` 类来存储这个数据。
 
-> [**ViewModel**](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/2_Architecture_Components/2_5_ViewModel.md) 将数据提供给特定的 UI 组件，例如一个 fragment 或者 activity，并且处理和数据绑定的业务逻辑部分的通信，例如调用其他组件来加载数据或者转发用户的修改操作。ViewModel 并不知道视图（View）的细节，也不受配置变更（configuration changes）的影响，例如旋转屏幕导致的 activity 重建。
+> [**ViewModel**](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_9_ViewModel.md) 将数据提供给特定的 UI 组件，例如一个 fragment 或者 activity，并且处理和数据绑定的业务逻辑部分的通信，例如调用其他组件来加载数据或者转发用户的修改操作。ViewModel 并不知道视图（View）的细节，也不受配置变更（configuration changes）的影响，例如旋转屏幕导致的 activity 重建。
 
 现在我们有了三个文件：
 
@@ -89,7 +89,7 @@ public class UserProfileFragment extends Fragment {
 
 现在我们已经有了这三个代码模块，那应该如何将它们彼此联系起来呢？毕竟，当 ViewModel 的用户字段被更新时，我们需要一种通知 UI 的手段。这就是 *LiveData* 大显身手之处了。
 
-> [**LiveData**](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/2_Architecture_Components/2_4_LiveData.md) 是可观察数据（observable data）的容器，它允许您应用中的组件观察 LiveData 对象的变化，而毋须创建对其的显式强依赖。LiveData 还会根据您的应用组件（如：activity、fragment、服务，等等）的生命周期状态，采取恰当的措施防止内存泄漏。
+> [**LiveData**](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_5_LiveData.md) 是可观察数据（observable data）的容器，它允许您应用中的组件观察 LiveData 对象的变化，而毋须创建对其的显式强依赖。LiveData 还会根据您的应用组件（如：activity、fragment、服务，等等）的生命周期状态，采取恰当的措施防止内存泄漏。
 
 > **注意**：如果您已经在使用 [RxJava](https://github.com/ReactiveX/RxJava) 或 [Agera](https://github.com/google/agera) 等类库，那么您完全可以继续使用它们而无需换到 LiveData 上，但请务必恰当地处理生命周期：当相应的 LifecycleOwner 停止或销毁时，您的数据流也应当停止或销毁。您也可以添加 `android.arch.lifecycle:reactivestreams` 的 artifact 依赖来和其他的响应式流（reactive streams）类库一同使用 LiveData，例如 RxJava2。
 
@@ -121,7 +121,7 @@ public void onActivityCreated(@Nullable Bundle savedInstanceState) {
 
 您如果了解其他使用响应式回调函数的类库，也许就已经注意到了一点：我们并不是必须要重写 fragment 的[`onStop()`](https://developer.android.google.cn/reference/android/app/Fragment.html#onStop()) 方法来停止对数据的观察：因为 LiveData 洞悉生命周期，也就是说只要 fragment 不在一个活动的状态（收到了 [`onStart()`](https://developer.android.google.cn/reference/android/app/Fragment.html#onStart()) 但还没收到 [`onStop()`](https://developer.android.google.cn/reference/android/app/Fragment.html#onStop())），它就不会触发回调函数；当 fragment 收到[onDestroy()](https://developer.android.google.cn/reference/android/app/Fragment.html#onDestroy())的时候，LiveData 能够自动移除其观察者。
 
-我们也并没有专门费心处理例如用户旋转屏幕等配置变更的情况：ViewModel 在配置变更的时候会自动恢复，因而新的 fragment 在进入生命周期的那一刻，就会收到完全相同的 ViewModel 实例，且回调函数也会被立即用最新的数据触发。——这就是 ViewModel 不应直接引用视图对象的原因：它的生命周期可以比视图对象的更长。请参阅：[ViewModel 的生命周期](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/2_Architecture_Components/2_5_ViewModel.md)
+我们也并没有专门费心处理例如用户旋转屏幕等配置变更的情况：ViewModel 在配置变更的时候会自动恢复，因而新的 fragment 在进入生命周期的那一刻，就会收到完全相同的 ViewModel 实例，且回调函数也会被立即用最新的数据触发。——这就是 ViewModel 不应直接引用视图对象的原因：它的生命周期可以比视图对象的更长。请参阅：[ViewModel 的生命周期](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_9_ViewModel.md)
 
 ### 获取数据
 
