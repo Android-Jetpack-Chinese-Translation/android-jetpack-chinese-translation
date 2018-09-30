@@ -41,7 +41,7 @@
                     - 3_2_3_6_Binding_adapters.md
                     - 3_2_3_7_Bind_layout_views_to_Architecture_Components.md
                 - [使用能感知生命周期的组件来处理生命周期](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_4_Handling_Lifecycles.md) by [naco-siren](https://github.com/naco-siren)
-                - [LiveData](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_5_LiveData.md)
+                - [LiveData](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_5_LiveData.md) by [naco-siren](https://github.com/naco-siren)
                 - Navigation
                     - 3_2_6_1_The_Navigation_Component.md
                     - 3_2_6_2_Principles_of_Navigation.md

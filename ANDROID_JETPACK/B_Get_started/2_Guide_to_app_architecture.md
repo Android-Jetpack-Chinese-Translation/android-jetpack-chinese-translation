@@ -167,7 +167,7 @@ public class UserRepository {
 
 尽管 repository 模块看起来并不是必需的，它却有着将数据源从应用中抽象出来的重要作用。现在我们的 ViewModel 并不知道数据是从 `Webservice` 获取的，也就是说我们可以在必要的时候将其替换成别的实现。
 
-> **注意**：为了简洁，我们将网络错误的情况省略掉了。您可以参阅 [附录：显示网络状态](https://developer.android.google.cn/jetpack/docs/guide#addendum)
+> **注意**：为了简洁，我们将网络错误的情况省略掉了。您可以参阅下面的“附录：显示网络状态”。
 
 ### 管理组件间的依赖关系
 
@@ -351,7 +351,7 @@ public class UserRepository {
 
 针对这种用例，一般有两种解决思路：
 
-* 修改 `getUser` 以使其返回一个包含网络状态的 LiveData。[附录：显示网络状态](https://developer.android.google.cn/jetpack/docs/guide#addendum) 中已经提供了一个实现的范例。
+* 修改 `getUser` 以使其返回一个包含网络状态的 LiveData。“附录：显示网络状态”中已经提供了一个实现的范例。
 
 * 为 repository 添加另一个公共方法用来返回刷新状态。如果您只想在显式用户操作（譬如下拉刷新）时展示网络状态，这个思路会更合适一些。
 
