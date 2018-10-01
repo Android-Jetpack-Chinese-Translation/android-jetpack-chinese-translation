@@ -355,7 +355,7 @@ class MyViewModel extends ViewModel {
 
 ## 其他资源
 
-[`LiveData`](https://developer.android.google.cn/reference/android/arch/lifecycle/LiveData.html) 是一个 [Android Jetpack](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/ANDROID_JETPACK/A_Overview.md) 的架构组件。[Sunflower](https://github.com/googlesamples/android-sunflower) 范例应用展示了如何使用它们。
+[`LiveData`](https://developer.android.google.cn/reference/android/arch/lifecycle/LiveData.html) 是 [Android Jetpack](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/ANDROID_JETPACK/A_Overview.md) 的一个架构组件。[Sunflower](https://github.com/googlesamples/android-sunflower) 范例应用展示了如何使用它们。
 
 欲了解更多有关和 [`Snackbar`](https://developer.android.google.cn/training/snackbar) 信息、导航事件等一同使用 `LiveData` 的内容，请参阅[该博客](https://medium.com/google-developers/livedata-with-snackbar-navigation-and-other-events-the-singleliveevent-case-ac2622673150)。
 

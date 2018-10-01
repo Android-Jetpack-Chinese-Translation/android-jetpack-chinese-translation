@@ -79,6 +79,17 @@
             - 3_6_Audio_&_Video
                 - 3_6_6_MediaPlayer_Overview.md
             - 3_8_App_data_&_files
+		       		- 3_8_5_Save_data_in_a_local_database
+			       		- [3_8_5_1_Overview.md](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_8_App_data_&_files/3_8_5_Save_data_in_a_local_database/3_8_5_1_Overview.md)
+			       		- 3_8_5_2_Storage_overview.md
+			       		- 3_8_5_3_Save_files_on_device_storage.md
+			       		- 3_8_5_4_Save_key-value_data.md
+			       		- 3_8_5_5_Save_data_in_a_local_database
+				       		- 3_8_5_5_1_Overview.md				       		- 3_8_5_5_2_Defining_data_using_entities.md
+				       		- 3_8_5_5_3_Accessing_data_using_DAOs.md 
+				       		- 3_8_5_5_4_Migrating_room_databases.md 
+				       		- 3_8_5_5_5_Testing_room_databases.md 
+				       		- 3_8_5_5_6_Referencing_complex_data.md 
                 - 3_8_6_Sharing_simple_data
                     - 3_8_6_1_Overview.md
                     - 3_8_6_2_Sending_simple_data_to_other_apps.md
