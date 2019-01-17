@@ -1,9 +1,9 @@
 # 自动生成的绑定类
 > 原文链接：[Generated binding classes  |  Android Developers](https://developer.android.google.cn/topic/libraries/data-binding/generated-binding)
 
-数据绑定库能自动生成绑定类，用来访问布局的变量和视图。本节展示了如何创建和定制这些自动生成的绑定类。
+数据绑定库能自动生成绑定类，用来访问布局的变量和视图。本节展示了如何创建并自定义这些自动生成的绑定类。
 
-生成的绑定类把布局的变量和视图联系起来。绑定类的名字和包结构可以被定制。所有自动生成的绑定类都继承了 [`ViewDataBinding`](https://developer.android.com/reference/android/databinding/ViewDataBinding.html?hl=zh-cn) 类。
+生成的绑定类把布局的变量和视图联系起来。绑定类的名字和包结构可以被自定义。所有自动生成的绑定类都继承了 [`ViewDataBinding`](https://developer.android.com/reference/android/databinding/ViewDataBinding.html?hl=zh-cn) 类。
 
 每个布局文件都能自动生成一个绑定类。默认情况下，绑定类的名字基于布局文件的文件名，将其转换成 Pascal 命名法，并添加 *binding* 后缀。上述布局文件的文件名是 `activity_main.xml`，因此其对应的绑定类就叫 `ActivityMainBinding`。该类持有其布局中属性（如 `user` 变量）到视图的所有绑定关系，并知道如何为绑定表达式赋值。
 
@@ -123,7 +123,7 @@ public void onBindViewHolder(BindingHolder holder, int position) {
 
 只要您的数据模型不是一个集合，您就能在一个后台线程中修改它。数据绑定在计算阶段会将每个变量/字段本地化，以免出现任何并发问题。
 
-## 定制绑定类名
+## 自定义绑定类名
 
 默认情况下，绑定类的名字基于布局文件的文件名，将首字母大写，移除下划线，再将接下来的一个字母大写，并添加 *binding* 后缀。该类会被置于模块的一个 `dataBinding` 包中。例如，一个名为 `contact_item.xml` 的布局文件，其对应的绑定类就叫 `ContactItemBinding`。如果模块的包是 `com.example.my.app`，那么该绑定类就会被置于 `com.example.my.app.databinding` 中。
 
