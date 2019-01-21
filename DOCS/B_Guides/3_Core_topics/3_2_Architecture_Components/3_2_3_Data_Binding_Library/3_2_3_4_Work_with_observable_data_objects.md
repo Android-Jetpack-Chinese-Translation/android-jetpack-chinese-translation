@@ -1,13 +1,13 @@
-# 与可观测的数据对象一起使用
+# 与可观察的数据对象一起使用
 > 原文链接：[Work with observable data objects  |  Android Developers](https://developer.android.google.cn/topic/libraries/data-binding/observability)
 
-可观测性指的是一个对象能将自己数据的变化通知给其他对象（即：监听器）的能力。数据绑定库让您能够把对象、字段和集合变得可观测。
+可观查性指的是一个对象能将自己数据的变化通知给其他对象（即：监听器）的能力。数据绑定库让您能够把对象、字段和集合变得可观察。
 
-任何老旧的对象都能用于数据绑定，但是修改这些对象并不能让 UI 自动更新。数据绑定能赋予您的数据对象在数据变动时通知其监听器的能力。可观测的类有三种不同的类型：对象、字段和集合。
+任何老旧的对象都能用于数据绑定，但是修改这些对象并不能让 UI 自动更新。数据绑定能赋予您的数据对象在数据变动时通知其监听器的能力。可观察的类有三种不同的类型：对象、字段和集合。
 
-## 可观测的字段
+## 可观察的字段
 
-创建一个实现了 [`Observable`](https://developer.android.com/reference/android/databinding/Observable.html?hl=zh-cn) 接口的类可能会有些麻烦，如果您的类只有少数几个属性的话，这可能并不值得。在这种情况下，您可以使用通用的 [`Observable`](https://developer.android.com/reference/android/databinding/Observable.html?hl=zh-cn) 类和下列针对原始类型的类来让字段变得可观测：
+创建一个实现了 [`Observable`](https://developer.android.com/reference/android/databinding/Observable.html?hl=zh-cn) 接口的类可能会有些麻烦，如果您的类只有少数几个属性的话，这可能并不值得。在这种情况下，您可以使用通用的 [`Observable`](https://developer.android.com/reference/android/databinding/Observable.html?hl=zh-cn) 类和下列针对原始类型的类来让字段变得可观察：
 
 * [`ObservableBoolean`](https://developer.android.com/reference/android/databinding/ObservableBoolean.html?hl=zh-cn)
 * [`ObservableByte`](https://developer.android.com/reference/android/databinding/ObservableByte.html?hl=zh-cn)
@@ -19,7 +19,7 @@
 * [`ObservableDouble`](https://developer.android.com/reference/android/databinding/ObservableDouble.html?hl=zh-cn)
 * [`ObservableParcelable`](https://developer.android.com/reference/android/databinding/ObservableParcelable.html?hl=zh-cn)
 
-可观测的字段是自给自足的、仅含有一个字段的可观测对象。原始类型的版本避免了访问操作的装箱和拆箱。欲使用该机制，创建一个 Java 的 `public final` 的字段或者 Kotlin 的只读属性，如下例所示：
+可观察的字段是自给自足的、仅含有一个字段的可观察对象。原始类型的版本避免了访问操作的装箱和拆箱。欲使用该机制，创建一个 Java 的 `public final` 的字段或者 Kotlin 的只读属性，如下例所示：
 
 ```java
 private static class User {
@@ -49,11 +49,11 @@ user.firstName = "Google"
 val age = user.age
 ```
 
-> **注意**：Android Studio 3.1 及更高版本允许您将可观测的字段替换为 LiveData 对象，这能给您的应用带来额外的好处。欲了解更多信息，请参阅：[使用 LiveData 把数据变动通知给 UI](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_3_Data_Binding_Library/3_2_3_7_Bind_layout_views_to_Architecture_Components.md)。
+> **注意**：Android Studio 3.1 及更高版本允许您将可观察的字段替换为 LiveData 对象，这能给您的应用带来额外的好处。欲了解更多信息，请参阅：[使用 LiveData 把数据变动通知给 UI](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_3_Data_Binding_Library/3_2_3_7_Bind_layout_views_to_Architecture_Components.md)。
 
-## 可观测的集合
+## 可观察的集合
 
-不少应用使用动态结构来存储数据。可观测的集合允许使用一个键（key）来访问这些结构。当键是引用类型（如 `String`）时，[`ObservableArrayMap`](https://developer.android.com/reference/android/databinding/ObservableArrayMap.html?hl=zh-cn) 类就能派上用场，如下例所示：
+不少应用使用动态结构来存储数据。可观察的集合允许使用一个键（key）来访问这些结构。当键是引用类型（如 `String`）时，[`ObservableArrayMap`](https://developer.android.com/reference/android/databinding/ObservableArrayMap.html?hl=zh-cn) 类就能派上用场，如下例所示：
 
 ```java
 ObservableArrayMap<String, Object> user = new ObservableArrayMap<>();
@@ -108,7 +108,7 @@ user.add(17);
     android:layout_height="wrap_content"/>
 ```
 
-## 可观测的对象
+## 可观察的对象
 
 一个实现了 [`Observable`](https://developer.android.com/reference/android/databinding/Observable.html?hl=zh-cn) 接口的类允许监听器注册，并让它们在属性的值变化时收到通知。
 
