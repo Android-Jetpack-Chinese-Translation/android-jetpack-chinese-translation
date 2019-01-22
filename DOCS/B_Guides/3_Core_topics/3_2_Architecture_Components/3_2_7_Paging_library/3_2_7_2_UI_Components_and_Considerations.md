@@ -5,7 +5,7 @@
 
 ## 把 UI 连接到 ViewModel
 
-您可以把一个 [`LiveData<PagedList>`](https://developer.android.com/reference/android/arch/lifecycle/LiveData?hl=zh-cn) 实例连接到 [`PagedListAdapter`](https://developer.android.com/reference/android/arch/paging/PagedListAdapter?hl=zh-cn)，如下所示：
+您可以把一个 [`LiveData<PagedList>`](https://developer.android.google.cn/reference/android/arch/lifecycle/LiveData?hl=zh-cn) 实例连接到 [`PagedListAdapter`](https://developer.android.google.cn/reference/android/arch/paging/PagedListAdapter?hl=zh-cn)，如下所示：
 
 ```java
 public class ConcertActivity extends AppCompatActivity {
@@ -21,7 +21,7 @@ public class ConcertActivity extends AppCompatActivity {
 }
 ```
 
-当数据源提供新的 `PagedList` 实例时，activity 会把这些对象发送给适配器。[`PagedListAdapter`](https://developer.android.com/reference/android/arch/paging/PagedListAdapter?hl=zh-cn) 的实现定义了这些更新将如何被计算，而列表的分页和版本比较（diffing）是自动完成的。因此，您的 [`ViewHolder`](https://developer.android.com/reference/android/support/v7/widget/RecyclerView.ViewHolder?hl=zh-cn) 只需绑定到一个已提供的特定项目：
+当数据源提供新的 `PagedList` 实例时，activity 会把这些对象发送给适配器。[`PagedListAdapter`](https://developer.android.google.cn/reference/android/arch/paging/PagedListAdapter?hl=zh-cn) 的实现定义了这些更新将如何被计算，而列表的分页和版本比较（diffing）是自动完成的。因此，您的 [`ViewHolder`](https://developer.android.google.cn/reference/android/support/v7/widget/RecyclerView.ViewHolder?hl=zh-cn) 只需绑定到一个已提供的特定项目：
 
 ```java
 public class ConcertAdapter
@@ -57,17 +57,17 @@ public class ConcertAdapter
 }
 ```
 
-`PagedListAdapter` 使用一个 [`PagedList.Callback`](https://developer.android.com/reference/android/arch/paging/PagedList.Callback?hl=zh-cn) 对象来处理页面重载。当用户滚动列表时，`PagedListAdapter` 调用 [`PagedList.loadAround()`](https://developer.android.com/reference/android/arch/paging/PagedList?hl=zh-cn#loadaround) 来提示其底层的 `PagedList` 应当从 [`DataSource`](https://developer.android.com/reference/android/arch/paging/DataSource?hl=zh-cn) 获取哪些数据。
+`PagedListAdapter` 使用一个 [`PagedList.Callback`](https://developer.android.google.cn/reference/android/arch/paging/PagedList.Callback?hl=zh-cn) 对象来处理页面重载。当用户滚动列表时，`PagedListAdapter` 调用 [`PagedList.loadAround()`](https://developer.android.google.cn/reference/android/arch/paging/PagedList?hl=zh-cn#loadaround) 来提示其底层的 `PagedList` 应当从 [`DataSource`](https://developer.android.google.cn/reference/android/arch/paging/DataSource?hl=zh-cn) 获取哪些数据。
 
 > **注意**：`PagedList` 的内容是不可更改的。这代表着，即使新的内容可以被读入一个 PagedList 实例，项目只要已经完成了加载就不能变更。这样一来，当一个 `PagedList` 的内容更新时，`PagedListAdapter` 对象就会收到一个全新的包含了新内容的 `PagedList`。
 
 ## 实现版本比较的回调
 
-签名的例子展示了 [`areContentsTheSame()`](https://developer.android.com/reference/android/support/v7/util/DiffUtil.ItemCallback?hl=zh-cn#arecontentsthesame) 的一个手动实现，它使用对象的相关字段来进行比较。你也可以在 Java 代码中使用 `Object.equals()` 方法、或者 Kotlin 代码中使用 `==` 运算符来比较两个内容，但请确保实现 `equals()` 方法或者使用 Kotlin 的类。
+签名的例子展示了 [`areContentsTheSame()`](https://developer.android.google.cn/reference/android/support/v7/util/DiffUtil.ItemCallback?hl=zh-cn#arecontentsthesame) 的一个手动实现，它使用对象的相关字段来进行比较。你也可以在 Java 代码中使用 `Object.equals()` 方法、或者 Kotlin 代码中使用 `==` 运算符来比较两个内容，但请确保实现 `equals()` 方法或者使用 Kotlin 的类。
 
 ### 使用一个不同的适配器类型来进行版本比较
 
-如果您选择不继承自 `PagedListAdapter`（例如，当您使用了一个已经提供了适配器的类库）您仍能通过 [`AsyncPagedListDiffer`](https://developer.android.com/reference/android/arch/paging/AsyncPagedListDiffer?hl=zh-cn) 对象来使用分页库适配器的版本比较功能
+如果您选择不继承自 `PagedListAdapter`（例如，当您使用了一个已经提供了适配器的类库）您仍能通过 [`AsyncPagedListDiffer`](https://developer.android.google.cn/reference/android/arch/paging/AsyncPagedListDiffer?hl=zh-cn) 对象来使用分页库适配器的版本比较功能
 
 ## 为您的 UI 提供占位符
 
