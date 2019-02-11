@@ -5,7 +5,7 @@
 
 该库帮您在设备上创建您应用数据的缓存，并让该缓存充当您应用的单一数据来源，从而让用户无论是否有网络连接都能够访问到一致的关键数据。
 
-> **注意**：欲将 Room 导入您的 Android 项目，请参阅[向您的项目中添加 Android 架构组件](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_2_Adding_Components_to_your_Project.md)。
+> **注意**：欲将 Room 导入您的 Android 项目，请参阅[为您的项目中添加 Android 架构组件](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_2_Adding_Components_to_your_Project.md)。
 
 ## 其他资源
 

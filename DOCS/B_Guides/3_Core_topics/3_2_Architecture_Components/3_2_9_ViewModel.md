@@ -3,7 +3,7 @@
 
 [`ViewModel`](https://developer.android.google.cn/reference/android/arch/lifecycle/ViewModel.html) 是一种被设计为通过能感知生命周期的方式来存储和管理 UI 相关的数据的类。它让数据能存活过配置变更（如屏幕旋转）而不被杀死。
 
-> **注意**：欲将 [`ViewModel`](https://developer.android.google.cn/reference/android/arch/lifecycle/ViewModel.html) 导入您的 Android 项目，请参阅[向您的项目中添加 Android 架构组件](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_2_Adding_Components_to_your_Project.md)。
+> **注意**：欲将 [`ViewModel`](https://developer.android.google.cn/reference/android/arch/lifecycle/ViewModel.html) 导入您的 Android 项目，请参阅[为您的项目添加 Android 架构组件](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_2_Adding_Components_to_your_Project.md)。
 
 Android 框架管理着 activity 和 fragment 等 UI 控制器的生命周期，因此可能决定销毁或重建某个 UI 控制器来相应特定的用户操作或设备事件，而这些操作和事件是您完全无法掌控的。
 

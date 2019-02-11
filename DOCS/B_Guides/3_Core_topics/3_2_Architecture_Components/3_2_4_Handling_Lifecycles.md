@@ -7,7 +7,7 @@
 
 [`android.arch.lifecycle`](https://developer.android.google.cn/reference/android/arch/lifecycle/package-summary.html) 包提供了让您构建能感知生命周期的组件的类和接口。
 
-> **注意**：欲将 `android.arch.lifecycle` 导入到您的 Android 项目中，请参阅[向您的项目中添加 Android 架构组件](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_2_Adding_Components_to_your_Project.md)。
+> **注意**：欲将 `android.arch.lifecycle` 导入到您的 Android 项目中，请参阅[为您的项目添加 Android 架构组件](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_2_Adding_Components_to_your_Project.md)。
 
 Android 框架中定义的大部分应用组件都附有相应的生命周期，而生命周期则是由操作系统、或是您的进程中运行的框架代码来管理。它们对于 Android 的正常工作来说是至关重要的，因此您的应用必须尊重其规律，否则就可能导致内存泄漏、甚至应用崩溃。
 

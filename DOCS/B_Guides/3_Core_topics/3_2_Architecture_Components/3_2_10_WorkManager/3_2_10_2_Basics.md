@@ -7,7 +7,7 @@
 
 欲了解更多关于 WorkManager 的进阶话题，例如链式任务、传递并返回值等等，请参阅 [WorkManager 的进阶话题](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_10_WorkManager/3_2_10_3_Advanced.md)。欲了解全部细节，请参阅 [WorkManager 参考文档](https://developer.android.google.cn/reference/androidx/work/package-summary)。
 
-> **注意**：欲将 WorkManager 库导入您的 Android 项目，请参阅[向您的项目中添加 Android 架构组件](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_2_Adding_Components_to_your_Project.md)。
+> **注意**：欲将 WorkManager 库导入您的 Android 项目，请参阅[为您的项目添加 Android 架构组件](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_2_Adding_Components_to_your_Project.md)。
 
 ## 类和概念
 

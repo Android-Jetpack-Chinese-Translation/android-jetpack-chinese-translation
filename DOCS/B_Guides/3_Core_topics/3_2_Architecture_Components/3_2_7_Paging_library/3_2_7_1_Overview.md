@@ -13,7 +13,7 @@ Paging 库让您的应用观察并展示一个合适的数据子集。该功能�
 
 如果您的应用已含有数据分页和展示列表的逻辑，请参阅下面的“更新您已有的应用”。
 
-> **注意**：欲把分页库导入到您的 Android 项目中，请参阅[向您的项目中添加 Android 架构组件](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_2_Adding_Components_to_your_Project.md)。
+> **注意**：欲把分页库导入到您的 Android 项目中，请参阅[为您的项目添加 Android 架构组件](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_2_Adding_Components_to_your_Project.md)。
 
 本节提供了如何使用分页库来请求和展示用户想要的数据、同时更经济节省地消耗系统资源的概览。欲了解更多关于您应用架构的特定层次，请参阅如下的页面：
 

@@ -1,4 +1,4 @@
-# 向您的项目中添加 Android 架构组件
+# 为您的项目添加 Android 架构组件
 > 原文链接：[Adding Components to your Project  |  Android Developers](https://developer.android.google.cn/topic/libraries/architecture/adding-components)
 
 在开始之前，我们建议您先阅读这篇[应用架构指南](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/ANDROID_JETPACK/B_Get_started/2_Guide_to_app_architecture.md)。该指南提及了一些对任何应用都有意义的原则，并且展示了应该如何把架构组件整合起来。
