@@ -44,13 +44,9 @@
                 - [使用能感知生命周期的组件来处理生命周期](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_4_Handling_Lifecycles.md) by [naco-siren](https://github.com/naco-siren)
                 - [LiveData](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_5_LiveData.md) by [naco-siren](https://github.com/naco-siren)
                 - Navigation
-                    - 3_2_6_1_The_Navigation_Component.md
-                    - 3_2_6_2_Principles_of_Navigation.md
-                    - [用 Navigation 架构组件来实现导航](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_6_Navigation/3_2_6_3_Implement_Navigation_with_the_Navigation_Architecture_Component.md)
-                    - 3_2_6_4_Migrate_to_the_Navigation_Component.md
-                    - 3_2_6_5_Add_support_for_new_destination.md
-                    - 3_2_6_6_Implement_conditional_navigation.md
-                    - 3_2_6_7_Identify_a_common_destination.md
+                    - [Navigation 概览](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_6_Navigation/3_2_6_1_Overview.md) by [naco-siren](https://github.com/naco-siren)
+                    - [用 Navigation 架构组件来实现导航](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_6_Navigation/3_2_6_2_Implement_Navigation_with_the_Navigation_Architecture_Component.md)
+                    - [支持新的目的地类型](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_6_Navigation/3_2_6_6_Add_support_for_new_destination.md)
                 - Paging
                     - [Paging 库概览](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_7_Paging_library/3_2_7_1_Overview.md) by [naco-siren](https://github.com/naco-siren)
                     - [UI 组件及其考虑因素](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_7_Paging_library/3_2_7_2_UI_Components_and_Considerations.md) by [naco-siren](https://github.com/naco-siren)

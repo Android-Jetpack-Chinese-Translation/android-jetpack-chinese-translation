@@ -64,7 +64,7 @@ implementation 'androidx.navigation:navigation-fragment:' + rootProject.navigati
 implementation 'androidx.navigation:navigation-ui:' + rootProject.navigationVersion
 ```
 
-## 了解更多
+## 其他资源
 
 想要了解更多案例和本章节涉及的类，请参阅以下资源：
 - [Android 应用架构组件](https://developer.android.google.cn/jetpack/arch/)
