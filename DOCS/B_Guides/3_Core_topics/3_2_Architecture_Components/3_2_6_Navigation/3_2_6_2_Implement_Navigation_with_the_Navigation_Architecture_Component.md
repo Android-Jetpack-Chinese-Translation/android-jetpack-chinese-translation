@@ -146,9 +146,9 @@ dependencies {
 	**图五：**连接的目的地
 	
 3. 单击该箭头来高亮其动作。如下的属性将出现在 **Attributes** 面板中：
-	1. **Type** 字段：”Action“。
-	2. **ID** 字段：该动作的 ID。
-	3. **Destination** 字段：目的地 Activity 或 Fragment 的 ID。
+	* **Type** 字段：”Action“。
+	* **ID** 字段：该动作的 ID。
+	* **Destination** 字段：目的地 Activity 或 Fragment 的 ID。
 
 4. 单击 **Text** 标签页来切换到 XML 视图。一个动作元素会被添加到源目的地。该动作含有一个 ID 属性和一个含有下一个目的地的 ID 的目的地属性，如下所示：
 
