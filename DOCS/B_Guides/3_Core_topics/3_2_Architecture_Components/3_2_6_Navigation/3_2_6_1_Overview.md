@@ -20,7 +20,7 @@ Navigation 架构组件还提供了如下所示的其他好处：
 * 处理 Fragment transaction。
 * 默认情况下就能正确处理“向上”和“向后”行为。
 * 为动画和转场（transition）提供标准化的资源。
-* 把 deeplink 作为一级操作来对待。
+* 把深层链接（deep link）作为一级操作来对待。
 * 以最小的额外代价，提供诸如导航抽屉和底部导航栏等导航 UI 样式。
 * 使用 Android Studio 的 [Navigation 编辑器](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_6_Navigation/3_2_6_2_Implement_Navigation_with_the_Navigation_Architecture_Component.md) 来可视化编辑导航图。
 
@@ -44,13 +44,13 @@ Navigation 架构组件是基于以下的设计原则：
 
 ### “向上”按钮永远不会退出应用
 
-如果一个用户正处于起始目的地，那么“向上”按钮就不应显示。当您的应用是被一个 deeplink 启动到另一个应用的任务上时，“向上”按钮应把用户带到当前页面在您应用架构中的上一层，而不是把用户带回到启动它的另一个应用。
+如果一个用户正处于起始目的地，那么“向上”按钮就不应显示。当您的应用是被一个深层链接（deeplink）启动到另一个应用的任务上时，“向上”按钮应把用户带到当前页面在您应用架构中的上一层，而不是把用户带回到启动它的另一个应用。
 
-### Deeplink 和导航到同一个目的地应当生成相同的堆栈
+### 深层链接和导航到同一个目的地应当生成相同的堆栈
 
 无论用户是如何到达某个目的地的，他都应当能使用”向后“或”向上“按钮来一步步回到最初的目的地。
 
-当使用 deeplink 时，任何已经存在的导航堆栈都将被移除，并被 deeplink 的导航堆栈所代替。
+当使用深层链接时，任何已经存在的导航堆栈都将被移除，并被深层链接的导航堆栈所代替。
 
 ## 开始动手
 
