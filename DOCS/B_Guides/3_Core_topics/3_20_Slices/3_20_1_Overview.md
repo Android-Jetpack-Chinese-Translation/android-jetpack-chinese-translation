@@ -1,7 +1,7 @@
 # 切片概览
 > 原文链接：[Slices  |  Android Developers](https://developer.android.google.cn/guide/slices)
 
-切片是能够在谷歌搜索应用及谷歌助手中展示来自您应用的丰富、动态且可交互内容的 UI 模板。用户利用切片可以在不进入全屏应用的情况下进行交互，因而能够更便捷地完成任务。您可以把切片构建成[应用动作（App Action）)](https://developer.android.google.cn/guide/actions?hl=zh-cn)的增强版。
+切片（Slices）是能够在谷歌搜索应用及谷歌助手中展示来自您应用的丰富、动态且可交互内容的 UI 模板。用户利用切片可以在不进入全屏应用的情况下进行交互，因而能够更便捷地完成任务。您可以把切片构建成[应用动作（App Action）)](https://developer.android.google.cn/guide/actions?hl=zh-cn)的增强版。
 
 [Android Jetpack](https://developer.android.google.cn/jetpack/?hl=zh-cn) 已内建了对切片的支持，并且可以向后兼容到 Android 4.4，因而覆盖到大约 95% 的 Android 用户。
 
