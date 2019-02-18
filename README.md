@@ -65,9 +65,8 @@
                     - [WorkManager 基础](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_10_WorkManager/3_2_10_2_Basics.md) by [naco-siren](https://github.com/naco-siren)
                     - [WorkManager 进阶话题](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_10_WorkManager/3_2_10_3_Advanced.md) by [naco-siren](https://github.com/naco-siren)
                 - [保存 UI 状态](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_11_Saving_States.md) by [naco-siren](https://github.com/naco-siren)
-            - 3_20_Slices
-                - 3_20_1_Overview.md
-                - 3_20_2_Getting_started.md
-                - 3_20_3_Slice_templates.md
-
+            - 切片
+                - [切片概览](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_20_Slices/3_20_1_Overview.md) by [naco-siren](https://github.com/naco-siren)
+                - [开始动手](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_20_Slices/3_20_2_Getting_started.md)
+                - [切片模板](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_20_Slices/3_20_3_Slice_templates.md)
 
