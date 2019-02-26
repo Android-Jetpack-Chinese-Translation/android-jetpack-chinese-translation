@@ -57,7 +57,7 @@ class MyActivity extends AppCompatActivity {
 
 尽管这个例子看起来没什么问题，但在一个真实的应用中，您会发现最后有太多更新 UI 和其他组件相应当前生命周期状态的调用了。为了管理多个组件，您不得不向 [`onStart()`](https://developer.android.google.cn/reference/android/app/Activity.html#onStart()) 和 [`onStop()`](https://developer.android.google.cn/reference/android/app/Activity.html#onStop()) 等生命周期方法中添加大量的代码，这样就很难维护。
 
-更糟的是，没人能保证这些组件会在 activity 或 fragment 停止前开始，尤其是在需要执行耗时较长的操作时，例如 [`onStart()`](https://developer.android.google.cn/reference/android/app/Activity.html#onStart()) 中的某些配置检查。这就会导致 [`onStop()`](https://developer.android.google.cn/reference/android/app/Activity.html#onStop()) 方法比 [`onStart()`](https://developer.android.google.cn/reference/android/app/Activity.html#onStart()) 更早结束的竞争危害（race condition），使这些组件存活得过久。
+更糟的是，没人能保证这些组件会在 activity 或 fragment 停止前开始，尤其是在需要执行耗时较长的操作时，例如 [`onStart()`](https://developer.android.google.cn/reference/android/app/Activity.html#onStart()) 中的某些配置检查。这就会出现竞争情况（race condition），导致 [`onStop()`](https://developer.android.google.cn/reference/android/app/Activity.html#onStop()) 方法提前于 [`onStart()`](https://developer.android.google.cn/reference/android/app/Activity.html#onStart()) 结束，从而使这些组件存活得过久。
 
 ```java
 class MyActivity extends AppCompatActivity {
@@ -135,7 +135,7 @@ myLifecycleOwner.getLifecycle().addObserver(new MyObserver());
 该接口将 [`Lifecycle`](https://developer.android.google.cn/reference/android/arch/lifecycle/Lifecycle.html) 的所有权从各自的类（如 [`Fragment`](https://developer.android.google.cn/reference/android/support/v4/app/Fragment.html) 和 [`AppCompatActivity`](https://developer.android.google.cn/reference/android/support/v7/app/AppCompatActivity.html)）中抽象出来，并允许用户编写与其协作的组件。任何定制的应用类都可以实现该接口。
 
 
-实现了 [`LifecycleObserver`](https://developer.android.google.cn/reference/android/arch/lifecycle/LifecycleObserver.html) 的接口的组件能够和实现了 [`LifecycleOwner`](https://developer.android.google.cn/reference/android/arch/lifecycle/LifecycleOwner.html) 的组件无缝衔接，因为后者可以提供一个生命周期，而前者可以注册一个观察。
+实现了 [`LifecycleObserver`](https://developer.android.google.cn/reference/android/arch/lifecycle/LifecycleObserver.html) 的接口的组件能够和实现了 [`LifecycleOwner`](https://developer.android.google.cn/reference/android/arch/lifecycle/LifecycleOwner.html) 的组件无缝衔接，因为后者可以提供一个被前者注册以观察的生命周期。
 
 继续用之前的地理位置跟踪应用作为例子，我们可以让 `MyLocationListener` 类实现 [`LifecycleObserver`](https://developer.android.google.cn/reference/android/arch/lifecycle/LifecycleObserver.html) 接口，并在 [`onCreate()`](https://developer.android.google.cn/reference/android/app/Activity.html#onCreate(android.os.Bundle)) 中使用 activity 的 [`Lifecycle`](https://developer.android.google.cn/reference/android/arch/lifecycle/Lifecycle.html) 来初始化它。这样一来，`MyLocationListener` 就能自给自足，也就是说针对生命周期状态而做出反应的逻辑将在 `MyLocationListener` 而非 activity 中声明。让组件们各自保有其逻辑，有利于让 acitivity 和 fragment 的逻辑更易于管理。
 
@@ -189,7 +189,7 @@ class MyLocationListener implements LifecycleObserver {
 }
 ```
 
-使用这样的实现方式，我们的 `LocationListener` 就是完全地能感知生命周期了。如果我们需要在别的 activity 或 fragment 里使用它，只需将其初始化就行了。所有的设置和拆解工作都会由这个类自己处理好。
+使用这样的实现方式，我们的 `LocationListener` 就能完全地感知生命周期了。如果我们需要在别的 activity 或 fragment 里使用它，只需将其初始化就行了。所有的设置和拆卸工作都会由这个类自己处理好。
 
 如果一个库提供了需要和 Android 生命周期协调的类，我们推荐您使用能感知生命周期的组件。您的库的用户可以轻易地整合这些组件，而毋须手动地管理生命周期。
 
@@ -228,7 +228,7 @@ public class MyActivity extends Activity implements LifecycleOwner {
 ## 能感知生命周期的组件的最佳实践
 
 * 尽量让您的 UI 控制器（activity 和 fragment）别什么都自己扛着。它们不应试图获取自身的数据，而是应该通过 [`ViewModel`](https://developer.android.google.cn/reference/android/arch/lifecycle/ViewModel.html)，并观察一个 [`LiveData`](https://developer.android.google.cn/reference/android/arch/lifecycle/LiveData.html) 对象来在视图上针对变动做出反应。
-* 试着写点数据驱动的 UI，并让您的 UI 控制器负责在数据变化的时候更新视图、或者把用户的行为通知给 [`ViewModel`](https://developer.android.google.cn/reference/android/arch/lifecycle/ViewModel.html)。
+* 尝试编写数据驱动的 UI，并让您的 UI 控制器负责在数据变化的时候更新视图、或者把用户的行为通知给 [`ViewModel`](https://developer.android.google.cn/reference/android/arch/lifecycle/ViewModel.html)。
 * 将您的数据逻辑放入 [`ViewModel`](https://developer.android.google.cn/reference/android/arch/lifecycle/ViewModel.html) 类。[`ViewModel`](https://developer.android.google.cn/reference/android/arch/lifecycle/ViewModel.html) 应当充作您的 UI 控制器和应用其余部分的连接。请小心注意：获取数据（比如从网络下载）并不是 [`ViewModel`](https://developer.android.google.cn/reference/android/arch/lifecycle/ViewModel.html) 的责任，恰恰相反，[`ViewModel`](https://developer.android.google.cn/reference/android/arch/lifecycle/ViewModel.html) 应当调用合适的组件去获取数据，再将结果提供给 UI 控制器。
 * 使用[数据绑定](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_3_Data_Binding_Library/3_2_3_1_Overview.md)来在您的视图和 UI 控制器之间维持整洁的接口。这有利于让您的视图更具陈述性，而且让您在 UI 控制器中只需添加最少的更新逻辑。如果您更愿意使用 Java 语言来进行数据绑定，使用诸如 [Butter Knife](http://jakewharton.github.io/butterknife/) 的库可以避免八股代码而获得更好的抽象。
 * 如果您的 UI 很复杂，请考虑创建一个 [presenter](http://www.gwtproject.org/articles/mvp-architecture.html#presenter) 类来处理 UI 修改。这可能会比较累人，但可以让您的 UI 组件更易于测试。
@@ -251,7 +251,7 @@ public class MyActivity extends Activity implements LifecycleOwner {
 
 [`LiveData`](https://developer.android.google.cn/reference/android/arch/lifecycle/LiveData.html) 提供了对这种边缘情况的开箱即用的支持：如果观察者所联系的 [`Lifecycle`](https://developer.android.google.cn/reference/android/arch/lifecycle/Lifecycle.html) 连 [`STARTED`](https://developer.android.google.cn/reference/android/arch/lifecycle/Lifecycle.State.html#STARTED) 都不是的话，它就不会调用该观察者。其内部实现是先调用 [`isAtLeast()`](https://developer.android.google.cn/reference/android/arch/lifecycle/Lifecycle.State.html#isAtLeast(android.arch.lifecycle.Lifecycle.State)) 来决定是否要触发其观察者。
 
-悲剧的是，[`AppCompatActivity`](https://developer.android.google.cn/reference/android/support/v7/app/AppCompatActivity.html) 的 [`onStop()`](https://developer.android.google.cn/reference/android/support/v7/app/AppCompatActivity.html#onStop()) 是在 [`onSaveInstanceState()`](https://developer.android.google.cn/reference/android/support/v7/app/AppCompatActivity.html#onSaveInstanceState(android.os.Bundle)) 之后调用的，这导致了一段 UI 不允许改动、但 [`Lifecycle`](https://developer.android.google.cn/reference/android/arch/lifecycle/Lifecycle.html) 还没移入 [`CREATED`](https://developer.android.google.cn/reference/android/arch/lifecycle/Lifecycle.State.html#CREATED) 的间隙。
+悲剧的是，[`AppCompatActivity`](https://developer.android.google.cn/reference/android/support/v7/app/AppCompatActivity.html) 的 [`onStop()`](https://developer.android.google.cn/reference/android/support/v7/app/AppCompatActivity.html#onStop()) 是在 [`onSaveInstanceState()`](https://developer.android.google.cn/reference/android/support/v7/app/AppCompatActivity.html#onSaveInstanceState(android.os.Bundle)) 之后调用的，这导致了一段 UI 不允许改动、但 [`Lifecycle`](https://developer.android.google.cn/reference/android/arch/lifecycle/Lifecycle.html) 还没进入 [`CREATED`](https://developer.android.google.cn/reference/android/arch/lifecycle/Lifecycle.State.html#CREATED) 状态的间隙。
 
 为了防止这样的悲剧，`beta2` 及更低版本的 [`Lifecycle`](https://developer.android.google.cn/reference/android/arch/lifecycle/Lifecycle.html) 将状态标记为 [`CREATED`](https://developer.android.google.cn/reference/android/arch/lifecycle/Lifecycle.State.html#CREATED) 但并不分发事件，这样一来任何检查当前状态的代码都会得到真正的值，尽管直到系统调用 [`onStop()`](https://developer.android.google.cn/reference/android/support/v7/app/AppCompatActivity.html#onStop()) 之前事件都没被分发。
 
@@ -267,5 +267,3 @@ public class MyActivity extends Activity implements LifecycleOwner {
 在[代码实验室](https://codelabs.developers.google.com/codelabs/android-lifecycles/#0)中试一试生命周期组件。
 
 能感知生命周期的组件是 [`Android Jetpack`](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/ANDROID_JETPACK/A_Overview.md) 的一部分。[Sunflower](https://github.com/googlesamples/android-sunflower) 范例应用展示了如何使用它们。
-
-
