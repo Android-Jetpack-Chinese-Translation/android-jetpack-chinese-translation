@@ -1,4 +1,4 @@
-# WorkManager 进阶话题
+# WorkManager 高级进阶
 > 原文链接：[Advanced WorkManager topics  |  Android Developers](https://developer.android.google.cn/topic/libraries/architecture/workmanager/advanced)
 
 WorkManager 简化了精密任务请求的设定和安排，您可以在如下情境中使用其 API：

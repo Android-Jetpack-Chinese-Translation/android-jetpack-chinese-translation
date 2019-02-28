@@ -11,7 +11,7 @@
         - [“Hello, Jetpack”：开发您的第一个 Jetpack 应用](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/ANDROID_JETPACK/B_Get_started/1_Build_your_first_Android_Jetpack_app.md) by [naco-siren](https://github.com/naco-siren)
         - [应用架构指南](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/ANDROID_JETPACK/B_Get_started/2_Guide_to_app_architecture.md) by [naco-siren](https://github.com/naco-siren)
 - PLATFORM
-    - 库        
+    - 库
         - [支持库概览](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/1_Support_Library_Overview.md) by [naco-siren](https://github.com/naco-siren)
         - [支持库特性](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/2_Features.md) by [naco-siren](https://github.com/naco-siren)
         - [支持库包](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/3_Packages.md) by [naco-siren](https://github.com/naco-siren)
@@ -19,7 +19,6 @@
         - AndroidX
             - [AndroidX 概述](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/6_AndroidX/6_1_AndroidX_Overview.md) by [naco-siren](https://github.com/naco-siren)
             - [AndroidX 重构](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/6_AndroidX/6_2_Refactoring.md) by [naco-siren](https://github.com/naco-siren)
-
     - Kotlin
         - [Kotlin 和 Android](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/E_Kotlin/1_Kotlin_and_Android.md) by [naco-siren](https://github.com/naco-siren)
         - [开始动手在 Android 中使用 Kotlin](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/E_Kotlin/2_Get_Started_with_Kotlin.md) by [naco-siren](https://github.com/naco-siren)
@@ -61,9 +60,10 @@
                 - [Room 数据持久化](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_8_Room_Persistence_Library.md) by [naco-siren](https://github.com/naco-siren)
                 - [ViewModel](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_9_ViewModel.md) by [naco-siren](https://github.com/naco-siren)
                 - WorkManager
-                    - [使用 WorkManager 来计划任务](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_10_WorkManager/3_2_10_1_Overview.md) by [naco-siren](https://github.com/naco-siren)
-                    - [WorkManager 基础](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_10_WorkManager/3_2_10_2_Basics.md) by [naco-siren](https://github.com/naco-siren)
-                    - [WorkManager 进阶话题](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_10_WorkManager/3_2_10_3_Advanced.md) by [naco-siren](https://github.com/naco-siren)
+                    - [使用 WorkManager 来调度任务](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_10_WorkManager/3_2_10_1_Overview.md) by [naco-siren](https://github.com/naco-siren)
+                    - [WorkManager 基础知识](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_10_WorkManager/3_2_10_2_Basics.md) by [naco-siren](https://github.com/naco-siren)
+                    - [WorkManager 高级进阶](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_10_WorkManager/3_2_10_3_Advanced.md) by [naco-siren](https://github.com/naco-siren)
+                    - [从 Firebase JobDispatcher 迁移](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_10_WorkManager/3_2_10_4_Migrating_from_Firebase_JobDispatcher.md) by [ysy950803](https://github.com/ysy950803)
                 - [保存 UI 状态](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_11_Saving_States.md) by [naco-siren](https://github.com/naco-siren)
             - 切片
                 - [切片概览](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_20_Slices/3_20_1_Overview.md) by [naco-siren](https://github.com/naco-siren)
