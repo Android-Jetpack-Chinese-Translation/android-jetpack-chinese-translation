@@ -1,20 +1,56 @@
-# 使用 WorkManager 来计划任务
+# 使用 WorkManager 来调度任务
+
 > 原文链接：[Schedule tasks with WorkManager  |  Android Developers](https://developer.android.google.cn/topic/libraries/architecture/workmanager/)
 
-WorkManager 的 API 让您能轻松地指定可推迟的异步任务并安排其执行的时间。您只需创建一个任务并将其交给 WorkManager，就可以立即或在合适的时间执行它。
+WorkManager 的 API 让您能轻松地指定可推迟的异步任务并安排其执行的时间，即使应用已经退出或者设备重启。
 
-基于设备的 API 版本和应用的状态等因素，WorkManager 可为您的任务选择合适的执行方式。如果 WorkManager 在您的应用仍在运行的时候执行一个任务，那么它会为这个任务创建一个新的线程；如果您的应用不在运行，那么它会根据设备的 API 版本及所包含的依赖关系来安排一个后台任务，包括 [`JobScheduler`](https://developer.android.google.cn/reference/android/app/job/JobScheduler.html)、[`Firebase JobDispatcher`](https://github.com/firebase/firebase-jobdispatcher-android#user-content-firebase-jobdispatcher-) 和 [`AlarmManager`](https://developer.android.google.cn/reference/android/app/AlarmManager.html)。无须手动编写检查设备能力的代码来选择合适的 API，您只需把任务交给 WorkManager 来让其自主选择最佳方案。
+**主要特点：**
+- 向后兼容至 API 14
+    - 在 API 23+ 的设备上使用 JobScheduler
+    - 在 API 14-22 的设备上组合使用 BroadcastReceiver + AlarmManager
+- 添加网络可用性或电量等工作限制
+- 调度一次性或周期性的异步任务
+- 监测和管理已调度的任务
+- 任务可连锁在一起
+- 即使应用程序或设备重新启动，也可保证任务执行
 
-> **注意**：WorkManager 是专门为即使应用退出也必须保证系统执行的任务而设计的，例如将应用数据上传到服务器。它并不适用于即使应用退出也能被安全终止的进程内的后台任务，针对这种情况，我们推荐您使用 [`ThreadPools`](https://developer.android.google.cn/training/multiple-threads/create-threadpool#ThreadPool)。
+WorkManager 适用于可推迟的、无需立即执行的任务，即使应用程序退出或设备重启也要保证可靠运行。例如:
+- 发送日志或分析数据给服务端
+- 定期与服务器同步应用程序数据
+
+WorkManager 不适用于在应用进程消失时可以安全终止的进程内的后台任务，或者需要立即执行的任务。请参阅 [后台任务指南](https://developer.android.google.cn/guide/background/) 以明确您需要哪种解决方案。
+
+查看 [发行说明](https://developer.android.google.cn/jetpack/androidx/releases/work#declaring_dependencies) 以了解如何将 WorkManager 导入 Android 项目。
 
 ## 话题
 
-#### [WorkManager 基础](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_10_WorkManager/3_2_10_2_Basics.md)
+#### [WorkManager 基础知识](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_10_WorkManager/3_2_10_2_Basics.md)
 
-使用 WorkManager 来安排单个任务在您指定的情况下执行，或者每隔特定时间间隔就执行的重复任务。
+使用 WorkManager 来调度特定条件下执行的单次任务，或者是定期运行的任务。
 
-#### [WorkManager 进阶话题](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_10_WorkManager/3_2_10_3_Advanced.md)
+#### [WorkManager 高级进阶](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_10_WorkManager/3_2_10_3_Advanced.md)
 
-设定任务的链式序列（chained sequences），设定可以传递并返回值的任务，设定命名的、独特的任务序列。
+设置任务的链式序列（chained sequences），设置可传参并返回值的任务，设置指定的、唯一的任务序列。
 
+#### [从 Firebase JobDispatcher 迁移](https://developer.android.google.cn/topic/libraries/architecture/workmanager/migrating-fb.html)
 
+更新现有应用，以便使用 WorkManager 而不是 Firebase JobDispatcher。
+
+## 更多资源
+
+### 示例
+
+- [WorkManagerSample](https://github.com/googlesamples/android-architecture-components/tree/master/WorkManagerSample)，一款简单的图像处理应用
+- [Sunflower](https://github.com/googlesamples/android-sunflower)，一款演示各种架构组件用法的示例应用，包括 WorkManager。
+
+### Codelabs
+
+- 使用 WorkManager，支持 [Kotlin](https://codelabs.developers.google.com/codelabs/android-workmanager-kt/) 和 [Java](https://codelabs.developers.google.com/codelabs/android-workmanager/) 代码
+
+### 视频
+
+- [使用 WorkManager](https://www.youtube.com/watch?v=83a4rYXsDs0)，来源：2018 Android 开发者峰会
+
+### 博客
+
+- [介绍 WorkManager](https://medium.com/androiddevelopers/introducing-workmanager-2083bcfc4712)
