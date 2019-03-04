@@ -1,5 +1,4 @@
 # 使用 WorkManager 来调度任务
-
 > 原文链接：[Schedule tasks with WorkManager  |  Android Developers](https://developer.android.google.cn/topic/libraries/architecture/workmanager/)
 
 WorkManager 的 API 让您能轻松地指定可推迟的异步任务并安排其执行的时间，即使应用已经退出或者设备重启。
