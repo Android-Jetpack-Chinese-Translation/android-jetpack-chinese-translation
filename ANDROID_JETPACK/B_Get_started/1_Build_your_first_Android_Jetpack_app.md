@@ -14,13 +14,13 @@
 
 2. ***Create Android Project*** 的下一个页面是 ***Add an Activity to Mobile*** ，该页面提供了许多用于创建应用的模板。如图一所示的 ***Activity & Fragment + ViewModel*** 模板能够方便地将 Jetpack 整合进您的应用，选择它并点击 ***Next*** 。
     
-    ![图一：Activity & Fragment + ViewModel 模板](https://developer.android.google.cn/static/images/jetpack/gs-1.png)
+    ![图一：Activity & Fragment + ViewModel 模板](https://developer.android.google.cn/images/jetpack/gs-1.png)
 
 3. 在 ***Configure Activity*** 页面，输入应用初始 Activity、Fragment 和 ViewModel 的名称。您也可以选择性地输入 fragment 的 package 路径。之后点击 ***Finish*** 。
-    ![图二：Activity & Fragment + ViewModel 模板的 Configure Activity 页面](https://developer.android.google.cn/static/images/jetpack/gs-2.png)
+    ![图二：Activity & Fragment + ViewModel 模板的 Configure Activity 页面](https://developer.android.google.cn/images/jetpack/gs-2.png)
 
 在您的项目（Project）视图中打开 `java` 文件夹，如图三所示，应用初始即含有三个类：`StartActivity`，`StartFragment` 和 `StartViewModel`。
-    ![图三：Activity & Fragment + ViewModel 模板初始化的类](https://developer.android.google.cn/static/images/jetpack/gs-3.png)
+    ![图三：Activity & Fragment + ViewModel 模板初始化的类](https://developer.android.google.cn/images/jetpack/gs-3.png)
 
 - `StartActivity` 是您应用的入口。它是一个 [`Activity`](https://developer.android.google.cn/reference/android/app/Activity) 的桩（Stub），用来充当您应用初始界面的 Fragment 的容器。
 - `StartFragment` 是您初始界面的 [`Fragment`](https://developer.android.google.cn/reference/android/app/Fragment) 的桩。
