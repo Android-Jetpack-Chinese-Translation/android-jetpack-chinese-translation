@@ -28,10 +28,10 @@
 - DOCS
     - 向导
         - 核心课题
-            - 架构组件
+            - 架构组件（Architecture Components）
                 - [概述](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_1_Overview.md) by [naco-siren](https://github.com/naco-siren)
                 - [为您的项目添加 Android 架构组件](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_2_Adding_Components_to_your_Project.md) by [naco-siren](https://github.com/naco-siren)
-                - 数据绑定 
+                - 数据绑定（DataBinding）
                     - [概览](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_3_Data_Binding_Library/3_2_3_1_Overview.md) by [naco-siren](https://github.com/naco-siren)
                     - [开始动手](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_3_Data_Binding_Library/3_2_3_2_Get_Started.md) by [naco-siren](https://github.com/naco-siren)
                     - [布局文件和绑定表达式](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_3_Data_Binding_Library/3_2_3_3_Layouts_and_binding_expressions.md) by [naco-siren](https://github.com/naco-siren)
@@ -42,7 +42,7 @@
                    - [双向数据绑定](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_3_Data_Binding_Library/3_2_3_8_Two-way_data_binding.md) by [naco-siren](https://github.com/naco-siren)
                 - [使用能感知生命周期的组件来处理生命周期](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_4_Handling_Lifecycles.md) by [naco-siren](https://github.com/naco-siren)
                 - [LiveData](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_5_LiveData.md) by [naco-siren](https://github.com/naco-siren)
-                - Navigation
+                - 导航（Navigation）
                     - [Navigation 概览](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_6_Navigation/3_2_6_1_Overview.md) by [naco-siren](https://github.com/naco-siren)
                     - [用 Navigation 架构组件来实现导航](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_6_Navigation/3_2_6_2_Implement_Navigation_with_the_Navigation_Architecture_Component.md) by [naco-siren](https://github.com/naco-siren)
                     - [使用 NavigationUI 来更新 UI 组件](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_6_Navigation/3_2_6_3_Update_UI_components_with_NavigationUI.md) by [naco-siren](https://github.com/naco-siren)
@@ -51,13 +51,13 @@
                     - [支持新的目的地类型](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_6_Navigation/3_2_6_6_Add_support_for_new_destination.md) by [naco-siren](https://github.com/naco-siren)
                     - [实现有条件的导航](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_6_Navigation/3_2_6_6_Add_support_for_new_destination.md) by [naco-siren](https://github.com/naco-siren)
                     - [为目的地创建深层链接](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_6_Navigation/3_2_6_6_Add_support_for_new_destination.md) by [naco-siren](https://github.com/naco-siren)
-                    - [全局动作](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_6_Navigation/3_2_6_9_Global_actions.md) by [naco-siren](https://github.com/naco-siren) 
+                    - [全局动作](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_6_Navigation/3_2_6_9_Global_actions.md) by [naco-siren](https://github.com/naco-siren)
                     - [迁移到 Navigation 架构组件](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_6_Navigation/3_2_6_10_Migrate_to_the_Navigation_Architecture_Component.md) by [naco-siren](https://github.com/naco-siren)
-                - Paging
+                - 分页库（Paging）
                     - [Paging 库概览](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_7_Paging_library/3_2_7_1_Overview.md) by [naco-siren](https://github.com/naco-siren)
-                    - [UI 组件及其考虑因素](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_7_Paging_library/3_2_7_2_UI_Components_and_Considerations.md) by [naco-siren](https://github.com/naco-siren)
-                    - [数据组件及其考虑因素](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_7_Paging_library/3_2_7_3_Data_Components_and_Considerations.md) by [naco-siren](https://github.com/naco-siren)
-                - [Room 数据持久化](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_8_Room_Persistence_Library.md) by [naco-siren](https://github.com/naco-siren)
+                    - [界面组件和注意事项](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_7_Paging_library/3_2_7_2_UI_Components_and_Considerations.md) by [naco-siren](https://github.com/naco-siren)
+                    - [数据组件和注意事项](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_7_Paging_library/3_2_7_3_Data_Components_and_Considerations.md) by [naco-siren](https://github.com/naco-siren)
+                - [Room 数据持久化库](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_8_Room_Persistence_Library.md) by [naco-siren](https://github.com/naco-siren)
                 - [ViewModel](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_9_ViewModel.md) by [naco-siren](https://github.com/naco-siren)
                 - WorkManager
                     - [使用 WorkManager 来调度任务](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_10_WorkManager/3_2_10_1_Overview.md) by [naco-siren](https://github.com/naco-siren)
@@ -65,8 +65,7 @@
                     - [WorkManager 高级进阶](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_10_WorkManager/3_2_10_3_Advanced.md) by [naco-siren](https://github.com/naco-siren)
                     - [从 Firebase JobDispatcher 迁移](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_10_WorkManager/3_2_10_4_Migrating_from_Firebase_JobDispatcher.md) by [ysy950803](https://github.com/ysy950803)
                 - [保存 UI 状态](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_11_Saving_States.md) by [naco-siren](https://github.com/naco-siren)
-            - 切片
+            - 切片（Slices）
                 - [切片概览](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_20_Slices/3_20_1_Overview.md) by [naco-siren](https://github.com/naco-siren)
                 - [开始动手](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_20_Slices/3_20_2_Getting_started.md) by [naco-siren](https://github.com/naco-siren)
                 - [切片模板](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_20_Slices/3_20_3_Slice_templates.md) by [naco-siren](https://github.com/naco-siren)
-
