@@ -62,7 +62,7 @@ public interface ConcertDao {
 
 图1显示了每种架构方案中数据的流动方式。 对于仅限网络或仅限数据库的解决方案，数据直接流向应用程序的 UI 模型（model）。 如果您使用的是组合方法，则数据会先从后端服务器流入设备上的数据库，再流入应用程序的 UI 模型。 每隔一段时间，每个数据流末端就会耗尽要加载的数据，此时它会从提供数据的组件中请求更多数据。 例如，当用完设备上数据库的数据后，它会从服务器请求更多数据。
 
-![paging-library-data-flow](https://developer.android.google.cn/topic/libraries/architecture/images/paging-library-data-flow.webp)
+![paging-library-data-flow](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/IMGS_BACKUP/paging-library-data-flow.png)
 
 **图1** 数据如何流经分页库支持的每个体系结构
 
