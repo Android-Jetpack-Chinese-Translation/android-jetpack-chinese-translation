@@ -25,10 +25,10 @@
 - [Android Persistence codelab](https://codelabs.developers.google.com/codelabs/android-persistence/index.html?index=..%2F..%2Findex#0)
 
 ### 博客
-- [Introducing Android Sunflower](https://medium.com/androiddevelopers/introducing-android-sunflower-e421b43fe0c2)
-- [Room + Time](https://medium.com/androiddevelopers/room-time-2b4cf9672b98?source=false---------7)
-- [Incrementally migrate from SQLite to Room](https://medium.com/androiddevelopers/incrementally-migrate-from-sqlite-to-room-66c2f655b377)
-- [7 Pro-tips for Room](https://medium.com/androiddevelopers/7-pro-tips-for-room-fbadea4bfbd1)
-- [Understanding migrations with Room](https://medium.com/androiddevelopers/understanding-migrations-with-room-f01e04b07929)
-- [Testing Room migrations](https://medium.com/androiddevelopers/testing-room-migrations-be93cdb0d975)
-- [Room + RxJava](https://medium.com/androiddevelopers/room-rxjava-acb0cd4f3757)
+- [Introducing Android Sunflower](https://medium.com/androiddevelopers/introducing-android-sunflower-e421b43fe0c2)（Jetpack 最佳实践的园艺应用）
+- [Room + Time](https://medium.com/androiddevelopers/room-time-2b4cf9672b98?source=false---------7)（Room 和时间信息结合）
+- [Incrementally migrate from SQLite to Room](https://medium.com/androiddevelopers/incrementally-migrate-from-sqlite-to-room-66c2f655b377)（从 SQLite 逐步迁移到 Room）
+- [7 Pro-tips for Room](https://medium.com/androiddevelopers/7-pro-tips-for-room-fbadea4bfbd1)（7 个有关 Room 的专业提示）
+- [Understanding migrations with Room](https://medium.com/androiddevelopers/understanding-migrations-with-room-f01e04b07929)（了解 Room 迁移）
+- [Testing Room migrations](https://medium.com/androiddevelopers/testing-room-migrations-be93cdb0d975)（测试 Room 迁移）
+- [Room + RxJava](https://medium.com/androiddevelopers/room-rxjava-acb0cd4f3757)（Room 和 RxJava 结合）

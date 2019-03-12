@@ -170,7 +170,7 @@ public class ConcertAdapter
             holder.bindTo(concert);
         } else {
             // Null 定义了一个占位符条目（placeholder item）- 当真正的数据项
-						// 从数据库中加载出来时，PagedListAdapter 会自动把这行作废。
+            // 从数据库中加载出来时，PagedListAdapter 会自动把这行作废。
             holder.clear();
         }
     }

@@ -63,7 +63,7 @@ public class ConcertAdapter
 
 ## 实现版本比较的回调
 
-签名的例子展示了 [`areContentsTheSame()`](https://developer.android.google.cn/reference/android/support/v7/util/DiffUtil.ItemCallback?hl=zh-cn#arecontentsthesame) 的一个手动实现，它使用对象的相关字段来进行比较。你也可以在 Java 代码中使用 `Object.equals()` 方法、或者 Kotlin 代码中使用 `==` 运算符来比较两个内容，但请确保实现 `equals()` 方法或者使用 Kotlin 的类。
+下面的例子展示了 [`areContentsTheSame()`](https://developer.android.google.cn/reference/android/support/v7/util/DiffUtil.ItemCallback?hl=zh-cn#arecontentsthesame) 的一个手动实现，它使用对象的相关字段来进行比较。你也可以在 Java 代码中使用 `Object.equals()` 方法、或者 Kotlin 代码中使用 `==` 运算符来比较两个内容，但请确保实现 `equals()` 方法或者使用 Kotlin 的类。
 
 ## 使用一个不同的适配器类型来进行版本比较
 
