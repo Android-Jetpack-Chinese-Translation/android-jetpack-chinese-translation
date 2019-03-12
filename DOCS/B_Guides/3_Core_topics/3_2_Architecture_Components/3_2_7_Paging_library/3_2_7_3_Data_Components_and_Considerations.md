@@ -35,9 +35,9 @@ LiveData<PagedList<Concert>> concertList =
 ## 定义您自己的分页配置
 
 欲配置 `LiveData<PagedList>` 来处理更复杂的情形，您还能定义自己的分页配置。特别地，您可以定义如下属性：
-- **[分页大小](https://developer.android.google.cn/reference/android/arch/paging/PagedList.Config.Builder#setPageSize(int%29)**：每一页数据项目的数量。
-- **[预加载的阈值](https://developer.android.google.cn/reference/android/arch/paging/PagedList.Config.Builder#setPrefetchDistance(int%29)**：分页库在距离应用 UI 中的最后一个可见的数据项该阈值个项目时开始预加载。该阈值应当是分页大小的若干倍。
-- **[占位符是否存在](https://developer.android.google.cn/reference/android/arch/paging/PagedList.Config.Builder#setEnablePlaceholders(boolean%29)**：决定 UI 是否应为还未加载完毕的列表项目展示占位符。欲了解使用占位符的优缺点讨论，请参阅 [为您的 UI 提供占位符](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_7_Paging_library/3_2_7_2_UI_Components_and_Considerations.md)。
+- **[分页大小](https://developer.android.google.cn/reference/android/arch/paging/PagedList.Config.Builder#setPageSize%28int%29)**：每一页数据项目的数量。
+- **[预加载的阈值](https://developer.android.google.cn/reference/android/arch/paging/PagedList.Config.Builder#setPrefetchDistance%28int%29)**：分页库在距离应用 UI 中的最后一个可见的数据项该阈值个项目时开始预加载。该阈值应当是分页大小的若干倍。
+- **[占位符是否存在](https://developer.android.google.cn/reference/android/arch/paging/PagedList.Config.Builder#setEnablePlaceholders%28boolean%29)**：决定 UI 是否应为还未加载完毕的列表项目展示占位符。欲了解使用占位符的优缺点讨论，请参阅 [为您的 UI 提供占位符](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_7_Paging_library/3_2_7_2_UI_Components_and_Considerations.md)。
 
 如果您想在分页库从数据库中加载一个列表时获得更多掌控，请将一个自定义的 [`Executor`](https://developer.android.google.cn/reference/java/util/concurrent/Executor?hl=zh-cn) 对象传入 [`LivePagedListBuilder`](https://developer.android.google.cn/reference/android/arch/paging/LivePagedListBuilder?hl=zh-cn)，如下所示：
 
