@@ -16,7 +16,7 @@ ConcertDao:
 
 @Dao
 public interface ConcertDao {
-		// 整型参数告诉 Room 应当使用 PositionalDataSource 对象，
+    // 整型参数告诉 Room 应当使用 PositionalDataSource 对象，
     // 并由 Room 加载基于位置的数据。
     @Query("SELECT * FROM concerts ORDER BY date DESC")
     DataSource.Factory<Integer, Concert> concertsByDate();
