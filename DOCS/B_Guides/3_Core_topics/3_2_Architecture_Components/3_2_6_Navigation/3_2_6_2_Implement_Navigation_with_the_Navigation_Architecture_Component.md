@@ -8,7 +8,7 @@ Android Jetpack 架构组件提供了一系列 Navigation 组件来为您处理�
 图一展示了一个样例应用的导航图的可视化表示。该应用含有六个页面，彼此之间用五个动作相连接。
 
 ![图一：一个导航图](https://developer.android.google.cn/images/topic/libraries/architecture/navigation-graph_2x.png?hl=zh-cn)
-**图一：**一个导航图
+**图一：** 一个导航图
 
 *目的地* 是您应用中任何一个用户能导航到的地方。尽管目的地常常是代表特定页面的 `Fragment`，Navigation 组件也支持下列其他目的地类型：
 
@@ -60,7 +60,7 @@ dependencies {
 在导航编辑器中，您可以可视化地编辑导航图，而无须直接编辑其底层的 XML。
 
 ![图二：导航编辑器](https://developer.android.google.cn/images/topic/libraries/architecture/navigation-editor_2x.png?hl=zh-cn)
-**图二：**导航编辑器
+**图二：** 导航编辑器
 
 1. **目的地**：列出您的导航宿主以及**图编辑器**中的所有目的地。
 2. **图编辑器**：含有您导航图的一个可视化表示。
@@ -83,7 +83,7 @@ dependencies {
 新的目的地类型会在导航编辑器中出现。Android Studio 还会用上面指定的语言创建一个相应的类文件；如果指明创建布局的话，还会为其创建一个相应的布局元文具。
 
 ![图三：一个目的地和一个占位符](https://developer.android.google.cn/images/topic/libraries/architecture/navigation-destination-and-placeholder_2x.png?hl=zh-cn)
-**图三：**一个目的地和一个占位符
+**图三：** 一个目的地和一个占位符
 
 您可以单击任何一个目的地来选中它。当您选中一个目的地的时候，如下的属性出现在 **Attributes** 面板中：
 
@@ -138,12 +138,12 @@ dependencies {
 1. 在 **Design** 标签页中，将指针悬浮在您想要用户开始导航的目的地的右侧，一个圆圈会出现。
 
 	![图四：动作连接圆圈](https://developer.android.google.cn/images/topic/libraries/architecture/navigation-actioncircle_2x.png?hl=zh-cn)
-	**图四：**动作连接圆圈
+	**图四：** 动作连接圆圈
 	
 2. 单击该圆圈，将您的指针拖动到您想让用户导航到的目的地，然后释放指针。一条带有箭头的线将会被画出，用于表示两个目的地之间的导航。
 
 	![图五：连接的目的地](https://developer.android.google.cn/images/topic/libraries/architecture/navigation-connected_2x.png?hl=zh-cn)	
-	**图五：**连接的目的地
+	**图五：** 连接的目的地
 	
 3. 单击该箭头来高亮其动作。如下的属性将出现在 **Attributes** 面板中：
 	* **Type** 字段：”Action“。
