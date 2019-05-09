@@ -1,13 +1,13 @@
 # 迁移到 AndroidX
 > 原文链接：[Migrating to AndroidX | Android Developers](https://developer.android.google.cn/jetpack/androidx/migrate)
 
-AndroidX 将原有支持库 API 包映射到 `androidx` 命名空间。只有包和 Maven 构件名称发生了变化；类，方法和字段名称均没有改变。
+AndroidX 将原有支持库 API 包映射到 `androidx` 命名空间。只有包和 Maven 构件名称发生了变化；类、方法和字段名称均没有改变。
 
-要了解如何使用 Android Studio 帮助您迁移现有代码，请参阅下面的 [使用 Android Studio 迁移现有项目](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/ANDROID_JETPACK/C_AndroidX/2_Migrating_to_AndroidX.md#使用 Android Studio 迁移现有项目)。
+要了解如何使用 Android Studio 帮助您迁移现有代码，请参阅下面的 [使用 Android Studio 迁移现有项目](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/ANDROID_JETPACK/C_AndroidX/2_Migrating_to_AndroidX.md#使用-android-studio-迁移现有项目)。
 
 > **注意**：如果您使用的是 Android KTX 模块，请务必更新您的依赖项以避免迁移问题。 有关每个模块的最新版本，请参阅 [Android KTX](https://developer.android.google.cn/kotlin/ktx)。
 
-##  使用 Android Studio 迁移现有项目
+## 使用 Android Studio 迁移现有项目
 
 使用 Android Studio 3.2 及更高版本，您可以通过从菜单栏中选择 **Refactor> Migrate to AndroidX**，快速迁移现有项目以使用 AndroidX。
 
@@ -21,6 +21,7 @@ android.enableJetifier=true
 要迁移不使用任何需要转换依赖项的第三方库的现有项目，可以将 `android.useAndroidX` 标志设置为 `true` ，将 `android.enableJetifier` 标志设置为 `false` 。
 
 ## 构件映射
+
 下表列出了从旧工件到新工件的现有映射。 您也可以从 [CSV文件](https://developer.android.google.cn/topic/libraries/support-library/downloads/androidx-artifact-mapping.csv) 中下载这些映射。
 
 | Old build artifact                                           | AndroidX build artifact                                      |

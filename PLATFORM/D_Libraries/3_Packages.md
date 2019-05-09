@@ -3,7 +3,7 @@
 
 Android 支持库含有若干可导入到您的应用的软件包，它们各自支持一定特定范围内的 Android 平台版本和功能特性。
 
-欲使用下列任意一个库，您必须下载库文件到您的 SDK 安装目录，按照[支持库设置](https://developer.android.google.cn/tools/support-library/setup.html#download)*（请选择简体中文）*的指导进行操作即可。在这之后，您还必须将特定的支持库导入到您的应用中，导入每个库的具体方法请参阅相应段落的结尾。
+欲使用下列任意一个库，您必须下载库文件到您的 SDK 安装目录，按照 [支持库设置](https://developer.android.google.cn/tools/support-library/setup.html#download) 的指导进行操作即可。在这之后，您还必须将特定的支持库导入到您的应用中，导入每个库的具体方法请参阅相应段落的结尾。
 
 > **注意**：所有支持库软件包所支持的最低 SDK 版本至少是 API 版本 14，有些软件包要求的更高，下面会在注意事项中一一提及。
 
@@ -47,7 +47,7 @@ com.android.support:support-core-ui:28.0.0
 
 ### v4 media-compat 库
 
-提供了[媒体（Media）](https://developer.android.google.cn/reference/android/media/package-summary.html)框架的向后移植，包括 [`MediaBrowser`](https://developer.android.google.cn/reference/android/media/browse/MediaBrowser.html) 和 [`MediaSession`](https://developer.android.google.cn/reference/android/media/session/MediaSession.html)。
+提供了 [媒体（Media）](https://developer.android.google.cn/reference/android/media/package-summary.html)框架的向后移植，包括 [`MediaBrowser`](https://developer.android.google.cn/reference/android/media/browse/MediaBrowser.html) 和 [`MediaSession`](https://developer.android.google.cn/reference/android/media/session/MediaSession.html)。
 
 在 Gradle 构建脚本中添加对该库的依赖所需的识别符是：
 
@@ -69,7 +69,7 @@ com.android.support:support-fragment:28.0.0
 
 ## Multidex 支持库
 
-提供了构建 Dalvik 可执行文件（DEX）分包的应用的支持。方法数超过 65,536 的应用要求使用  Dalvik 可执行文件分包的配置。欲了解更多使用 Multidex 的信息，请参阅[配置方法数超过 64K 的应用](https://developer.android.google.cn/studio/build/multidex)。
+提供了构建 Dalvik 可执行文件（DEX）分包的应用的支持。方法数超过 65,536 的应用要求使用  Dalvik 可执行文件分包的配置。欲了解更多使用 Multidex 的信息，请参阅 [配置方法数超过 64K 的应用](https://developer.android.google.cn/studio/build/multidex)。
 
 在 Gradle 构建脚本中添加对该库的依赖所需的识别符是：
 
@@ -89,7 +89,7 @@ com.android.support:multidex:1.0.0
 
 如下是 v7 兼容库所含的若干关键类：
 
-* [`ActionBar`](https://developer.android.google.cn/reference/android/support/v7/app/ActionBar.html)：提供了应用操作栏的 UI 样式。欲了解使用应用操作栏的更多信息，请参阅[应用操作栏](https://developer.android.google.cn/guide/topics/ui/actionbar.html)文档。
+* [`ActionBar`](https://developer.android.google.cn/reference/android/support/v7/app/ActionBar.html)：提供了应用操作栏的 UI 样式。欲了解使用应用操作栏的更多信息，请参阅 [应用操作栏](https://developer.android.google.cn/guide/topics/ui/actionbar.html)文档。
 * [`AppCompatActivity`](https://developer.android.google.cn/reference/android/support/v7/app/AppCompatActivity.html)：添加了一个应用 activity 类，可充当使用了支持库应用操作栏的activity的基类。
 * [`AppCompatDialog`](https://developer.android.google.cn/reference/android/support/v7/app/AppCompatDialog.html)：添加了一个对话框类，可充当使用了 AppCompat 主题的对话框的基类。
 * [`ShareActionProvider`](https://developer.android.google.cn/reference/android/support/v7/widget/ShareActionProvider.html)：添加了对于可用在应用操作栏的标准化的分享操作（例如邮件或发布到社交网络）的支持。
@@ -199,7 +199,7 @@ com.android.support:support-v13:28.0.0
 
 ## v14 Preference 支持库
 
-[`android.support.v14.preference`](https://developer.android.google.cn/reference/android/support/v14/preference/package-summary.html) 包加入了诸如[`PreferenceFragment.OnPreferenceStartFragmentCallback`](https://developer.android.google.cn/reference/android/support/v14/preference/PreferenceFragment.OnPreferenceStartFragmentCallback.html) 和[`PreferenceFragment.OnPreferenceStartScreenCallback`](https://developer.android.google.cn/reference/android/support/v14/preference/PreferenceFragment.OnPreferenceStartScreenCallback.html) 等用于提供偏好设置接口的 API，以及 [`MultiSelectListPreference`](https://developer.android.google.cn/reference/android/support/v14/preference/MultiSelectListPreference.html) 和 [`PreferenceFragment`](https://developer.android.google.cn/reference/android/support/v14/preference/PreferenceFragment.html) 等类。欲了解 v14 Preference 支持库 API 的详细内容，请参阅 API 文档中的 [`preference`](https://developer.android.google.cn/reference/android/support/v14/preference/package-summary.html) 包。
+[`android.support.v14.preference`](https://developer.android.google.cn/reference/android/support/v14/preference/package-summary.html) 包加入了诸如 [`PreferenceFragment.OnPreferenceStartFragmentCallback`](https://developer.android.google.cn/reference/android/support/v14/preference/PreferenceFragment.OnPreferenceStartFragmentCallback.html) 和[`PreferenceFragment.OnPreferenceStartScreenCallback`](https://developer.android.google.cn/reference/android/support/v14/preference/PreferenceFragment.OnPreferenceStartScreenCallback.html) 等用于提供偏好设置接口的 API，以及 [`MultiSelectListPreference`](https://developer.android.google.cn/reference/android/support/v14/preference/MultiSelectListPreference.html) 和 [`PreferenceFragment`](https://developer.android.google.cn/reference/android/support/v14/preference/PreferenceFragment.html) 等类。欲了解 v14 Preference 支持库 API 的详细内容，请参阅 API 文档中的 [`preference`](https://developer.android.google.cn/reference/android/support/v14/preference/package-summary.html) 包。
 
 在 Gradle 构建脚本中添加对该库的依赖所需的识别符是：
 
@@ -320,7 +320,7 @@ com.android.support:recommendation:28.0.0
 提供了为可穿戴设备构建 UI 的 API，这些 API 可在 [`android.support.wear.widget`](https://developer.android.google.cn/reference/android/support/wear/widget/package-summary.html) 包中获得，用来替代 Wearable 支持库中的相应版本。
 
 
-欲了解更多内容，请参阅[使用可穿戴 UI 库](https://developer.android.google.cn/training/wearables/ui/wear-ui-library.html)。
+欲了解更多内容，请参阅 [使用可穿戴 UI 库](https://developer.android.google.cn/training/wearables/ui/wear-ui-library.html)。
 
 在 Gradle 构建脚本中添加对该库的依赖所需的识别符是：
 
