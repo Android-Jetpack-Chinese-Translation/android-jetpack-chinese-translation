@@ -14,6 +14,7 @@
     - AndroidX
         - [AndroidX 概览](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/ANDROID_JETPACK/C_AndroidX/1_AndroidX_Overview.md) by [ysy950803](https://github.com/ysy950803)
         - [迁移到 AndroidX](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/ANDROID_JETPACK/C_AndroidX/2_Migrating_to_AndroidX.md) by [ysy950803](https://github.com/ysy950803)
+        - [Jetpack 组件](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/ANDROID_JETPACK/C_AndroidX/4_Jetpack_Compose.md) by [ysy950803](https://github.com/ysy950803)
 - PLATFORM
     - 库
         - [支持库概览](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/PLATFORM/D_Libraries/1_Support_Library_Overview.md) by [naco-siren](https://github.com/naco-siren)
