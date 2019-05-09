@@ -51,7 +51,7 @@ fun Greeting(name: String) {
 }
 ```
 
-Jetpack 组件 UI 库的 API 位于 AOSP [frameworks/support/ui](frameworks/support/ui) 目录中。组件编译器和运行时代码可以在 [frameworks/support/compose](frameworks/support/compose) 中找到。
+Jetpack 组件 UI 库的 API 位于 AOSP [frameworks/support/ui](https://android.googlesource.com/platform/frameworks/support/+/refs/heads/androidx-master-dev/ui/) 目录中。组件编译器和运行时代码可以在 [frameworks/support/compose](https://android.googlesource.com/platform/frameworks/support/+/refs/heads/androidx-master-dev/compose/) 中找到。
 
 ## 组件 UI 库
 

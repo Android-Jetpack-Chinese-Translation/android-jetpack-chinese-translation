@@ -1,5 +1,5 @@
 # Navigation 概览
-> 原文链接：[Navigation  |  Android Developers](https://developer.android.google.cn/topic/libraries/architecture/navigation)
+> 原文链接：[Navigation | Android Developers](https://developer.android.google.cn/topic/libraries/architecture/navigation)
 
 导航是应用设计中的至关重要的部分。使用导航，您可以设计出用户在应用中的各个部分之间跳转、进入和回退的交互。
 
