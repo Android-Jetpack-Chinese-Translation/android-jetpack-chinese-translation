@@ -1,5 +1,5 @@
 # 支持库软件包
-> 原文链接：[Support Library Packages  |  Android Developers](https://developer.android.google.cn/topic/libraries/support-library/packages)
+> 原文链接：[Support Library Packages | Android Developers](https://developer.android.google.cn/topic/libraries/support-library/packages)
 
 Android 支持库含有若干可导入到您的应用的软件包，它们各自支持一定特定范围内的 Android 平台版本和功能特性。
 
