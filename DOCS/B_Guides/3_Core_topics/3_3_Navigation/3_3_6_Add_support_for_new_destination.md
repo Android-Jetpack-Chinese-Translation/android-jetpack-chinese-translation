@@ -20,4 +20,3 @@ navController.navigatorProvider += customNavigator
 ```
 
 大多数 [Navigator](https://developer.android.google.cn/reference/androidx/navigation/Navigator.html?hl=zh-cn)  都有一个目的地的内部类，该内部类可以被用来指定和您目的地所独有的特定属性。欲了解更多有关目的地内部类的信息，请参阅相应 [Navigator](https://developer.android.google.cn/reference/androidx/navigation/Navigator.html?hl=zh-cn) 类的参考文档。
-

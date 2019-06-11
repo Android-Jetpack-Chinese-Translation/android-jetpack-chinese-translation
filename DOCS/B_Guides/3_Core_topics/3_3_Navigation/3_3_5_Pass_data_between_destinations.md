@@ -3,13 +3,13 @@
 
 通过给目的地定义参数的方式，Navigation 允许您为导航操作附加数据。例如，一个用户个人主页的目的地就可以接受一个用户 ID 作为参数，来决定具体显示哪一个用户。
 
-总的来说，您在目的地之间应尽可能少地只传递必需的数据。例如，您不应把数据对象直接传递过去，而是应该传递一个键来检索该对象，因为 Android 准备给保存的状态的全部空间是有限的。如果您需要传递大量数据，请考虑使用[在 fragment 之间分享数据](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_9_ViewModel.md)中提及的 [`ViewModel`](https://developer.android.google.cn/reference/androidx/lifecycle/ViewModel?hl=zh-cn)。
+总的来说，您在目的地之间应尽可能少地只传递必需的数据。例如，您不应把数据对象直接传递过去，而是应该传递一个键来检索该对象，因为 Android 准备给保存的状态的全部空间是有限的。如果您需要传递大量数据，请考虑使用[在 fragment 之间分享数据](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_8_ViewModel.md)中提及的 [`ViewModel`](https://developer.android.google.cn/reference/androidx/lifecycle/ViewModel?hl=zh-cn)。
 
 ## 定义目的地参数
 
 欲在目的地之间传递数据，请按下列步骤，首先为接受参数的目的地定义这些参数：
 
-1. 在[导航编辑器](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_6_Navigation/3_2_6_2_Implement_Navigation_with_the_Navigation_Architecture_Component.md)中，单击将要接受参数的目的地。
+1. 在[导航编辑器](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_3_Navigation/3_3_2_Implement_Navigation_with_the_Navigation_Architecture_Component.md)中，单击将要接受参数的目的地。
 2. 在 **Attributes** 面板中，单击 **Add (+)**。
 3. 在新出现的 **Add Argument Link** 窗口中，输入参数的名字、类型、可否为空值，以及（如果需要的话）一个默认值。
 4. 单击 **Add**。请注意现在 **Attributes** 面板的 **Arguments** 列表中已出现该参数。
@@ -90,7 +90,7 @@ override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
 
 ### 和全局动作一起使用 Safe Args
 
-当您和[全局动作（global action）](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_6_Navigation/3_2_6_9_Global_actions.md)一起使用 Safe Args 时，您必须为根节点 `<navigation>` 提供一个 `android:id` 的值，如下所示：
+当您和[全局动作（global action）](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_3_Navigation/3_3_9_Global_actions.md)一起使用 Safe Args 时，您必须为根节点 `<navigation>` 提供一个 `android:id` 的值，如下所示：
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>

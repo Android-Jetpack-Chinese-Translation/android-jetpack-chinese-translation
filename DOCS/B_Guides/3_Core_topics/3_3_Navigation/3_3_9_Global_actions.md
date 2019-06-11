@@ -48,6 +48,4 @@ viewTransactionsButton.setOnClickListener(new View.OnClickListener() {
 
 ## 和 Safe Args 一起使用全局动作
 
-欲了解更多和 Safe Args 一起使用全局动作的信息，请参阅[在目的地之间传递数据](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_6_Navigation/3_2_6_5_Pass_data_between_destinations.md)。
-
-
+欲了解更多和 Safe Args 一起使用全局动作的信息，请参阅[在目的地之间传递数据](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_3_Navigation/3_3_5_Pass_data_between_destinations.md)。

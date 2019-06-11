@@ -134,9 +134,8 @@ public class DetailFragment extends Fragment {
 
 [这个博客](https://codelabs.developers.google.com/codelabs/android-persistence/#0) 描述了如何使用 [`ViewModel`](https://developer.android.google.cn/reference/android/arch/lifecycle/ViewModel.html) 和 [`LiveData`](https://developer.android.google.cn/topic/libraries/architecture/livedata.html) 来替换掉 [`AsyncTaskLoader`](https://developer.android.google.cn/reference/android/content/AsyncTaskLoader.html)。
 
-随着您的数据变得越来越复杂，您可能选择用一个单独的类来只负责数据加载。[`ViewModel`](https://developer.android.google.cn/reference/android/arch/lifecycle/ViewModel.html) 的目的是把 UI 控制器的数据封装起来，从而活过配置变更。欲了解更多有关在配置变更前后、对数据进行加载、持久化和管理的内容，请参阅[保存 UI 状态](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_11_Saving_States.md)。
+随着您的数据变得越来越复杂，您可能选择用一个单独的类来只负责数据加载。[`ViewModel`](https://developer.android.google.cn/reference/android/arch/lifecycle/ViewModel.html) 的目的是把 UI 控制器的数据封装起来，从而活过配置变更。欲了解更多有关在配置变更前后、对数据进行加载、持久化和管理的内容，请参阅[保存 UI 状态](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_10_Saving_States.md)。
 
 [应用架构指南](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/ANDROID_JETPACK/B_Get_started/2_Guide_to_app_architecture.md) 提供了如何构建一个 repository 类来处理这些功能的建议。
 
 [`ViewModel`](https://developer.android.google.cn/reference/android/arch/lifecycle/ViewModel.html) 是 [Android Jetpack](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/ANDROID_JETPACK/A_Overview.md) 的一个架构组件。[Sunflower](https://github.com/googlesamples/android-sunflower) 范例应用展示了如何使用它们。
-

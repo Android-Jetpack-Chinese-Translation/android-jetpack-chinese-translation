@@ -54,7 +54,7 @@
 
 ## 使用 ViewModel 来处理配置变更
 
-在用户活跃使用应用时，ViewModel 是存储和管理 UI 相关数据的理想手段。它支持对 UI 数据的快速访问，并帮助您避免在屏幕旋转、窗口大小调整和其他常见的配置变更时重新从网络或硬盘读取数据。欲了解如何实现一个 ViewModel，请参阅 [ViewModel 概览](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_9_ViewModel.md)。
+在用户活跃使用应用时，ViewModel 是存储和管理 UI 相关数据的理想手段。它支持对 UI 数据的快速访问，并帮助您避免在屏幕旋转、窗口大小调整和其他常见的配置变更时重新从网络或硬盘读取数据。欲了解如何实现一个 ViewModel，请参阅 [ViewModel 概览](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_8_ViewModel.md)。
 
 ViewModel在内存中保持数据，因而比从硬盘或网络获取数据要快得多。一个 ViewModel 是和一个 activity 或其他生命周期所有者绑定的，所以在配置变更时能保持在内存中、并由系统自动将其绑定到新的 activity 实例上。
 

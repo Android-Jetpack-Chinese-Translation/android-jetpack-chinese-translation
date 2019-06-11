@@ -14,7 +14,7 @@ Android Jetpack 架构组件提供了一系列 Navigation 组件来为您处理�
 
 * Activity。
 * 导航图（graph）和子图（subgraph）：当目的地是图/子图时，用户被导航到该图/子图的起始目的地。
-* [自定义的目的地类型](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_6_Navigation/3_2_6_6_Add_support_for_new_destination.md)
+* [自定义的目的地类型](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_3_Navigation/3_3_6_Add_support_for_new_destination.md)
 
 > **注意**：Navigation 组件是为有一个主 Activity 和多个 Fragment 目的地的应用所涉及的。主 Activity 持有导航图，并负责在需要的时候切换目的地。在一个有着多个 Activity 目的地的应用中，每个额外的 Activity 持有其各自的导航图。欲了解更多信息，请参阅下面的“修改 Activity 并使其持有导航”。
 
@@ -278,7 +278,7 @@ Android 操作系统维护着一个 [`回退栈`](https://developer.android.goog
 button.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.next_fragment, null));
 ```
 
-欲处理其他常见 UI 组件的情况，例如顶部应用栏和底部导航栏，请参阅 [使用 NavigationUI 来更新 UI 组件](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_6_Navigation/3_2_6_3_Update_UI_components_with_NavigationUI.md)。
+欲处理其他常见 UI 组件的情况，例如顶部应用栏和底部导航栏，请参阅 [使用 NavigationUI 来更新 UI 组件](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_3_Navigation/3_3_3_Update_UI_components_with_NavigationUI.md)。
 
 ## 在目的地之间创建转场动画
 

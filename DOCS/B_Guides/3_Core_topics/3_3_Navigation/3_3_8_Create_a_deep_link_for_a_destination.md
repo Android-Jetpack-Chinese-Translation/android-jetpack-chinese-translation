@@ -9,7 +9,7 @@
 
 [显式深层链接](https://developer.android.google.cn/training/app-links/deep-linking?hl=zh-cn)是一个使用 [`PendingIntent`](https://developer.android.google.cn/reference/android/app/PendingIntent?hl=zh-cn) 来将用户带到您应用中某个特定位置的深层链接实例。您可以把显式深层链接做成通知、捷径（app shortcut）、小部件（widget）等的一部分。
 
-当用户使用显式深层链接打开您的应用时，任务回退栈被清空并被替换成该深层链接指向的目的地。当[嵌套导航图](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_6_Navigation/3_2_6_4_Nested_graphs.md)存在时，每层嵌套的起始目的地（即每个 `<navigation>` 元素的层级上的起始目的地）也会被加入回退栈。这意味着，当用户在该深层链接指向的目的地上点击”返回“按键时，他/她会回到导航栈中的上一层，就和从应用入口一层层导航到该目的地的情形一样。
+当用户使用显式深层链接打开您的应用时，任务回退栈被清空并被替换成该深层链接指向的目的地。当[嵌套导航图](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_3_Navigation/3_3_4_Nested_graphs.md)存在时，每层嵌套的起始目的地（即每个 `<navigation>` 元素的层级上的起始目的地）也会被加入回退栈。这意味着，当用户在该深层链接指向的目的地上点击”返回“按键时，他/她会回到导航栈中的上一层，就和从应用入口一层层导航到该目的地的情形一样。
 
 您可以使用 [`NavDeepLinkBuilder`](https://developer.android.google.cn/reference/androidx/navigation/NavDeepLinkBuilder?hl=zh-cn) 类来构造一个 [`PendingIntent`](https://developer.android.google.cn/reference/android/app/PendingIntent?hl=zh-cn)，如下例所示。请注意，如果提供的 `Context` 不是 `Activity`，那么如果可以的话，构造器就会使用 [`PackageManager.getLaunchIntentForPackage()`](https://developer.android.google.cn/reference/android/content/pm/PackageManager?hl=zh-cn#getLaunchIntentForPackage(java.lang.String)) 来作为默认的启动 activity。
 
@@ -38,7 +38,7 @@ PendingIntent pendingIntent = new NavDeepLinkBuilder(context)
 2. 单击 **Attributes** 面板中的 **Deep Links** 部分的 **+**。
 3. 在新出现的 **Add Deep Link** 对话框中，输入一个 **URI**。请注意：
 	* 没有协议名（scheme）的 URI 会被认为是 “http” 或 “https”。例如，`www.google.com` 会被同时匹配到 `http://www.google.com` 和 `https://www.google.com`。
-	* 以 `{placeholder_name}` 格式的占位符可以匹配一个或多个字符。例如，`http://www.example.com/users/{id}` 可以匹配到 `http://www.example.com/users/4`。导航组件会试图通过将占位符的名字匹配到目的地所定义的[数据参数](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_6_Navigation/3_2_6_5_Pass_data_between_destinations.md)的方式，把占位符解析成合适的类型。
+	* 以 `{placeholder_name}` 格式的占位符可以匹配一个或多个字符。例如，`http://www.example.com/users/{id}` 可以匹配到 `http://www.example.com/users/4`。导航组件会试图通过将占位符的名字匹配到目的地所定义的[数据参数](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_3_Navigation/3_3_5_Pass_data_between_destinations.md)的方式，把占位符解析成合适的类型。
 	* 您可以使用 `.*` 通配符来匹配零或多个字符。
 5. （可选）勾选 **Auto Verify** 来要求谷歌验证您是否是该 URI 的所有者。欲了解更多信息，请参阅[验证 Android 应用链接](https://developer.android.google.cn/training/app-links/verify-site-associations.html?hl=zh-cn)。
 6. 单击 **Add**，一个链接图标![](https://developer.android.google.cn/studio/images/buttons/navigation-deeplink.png?hl=zh-cn)会在所选的目的地上面出现，用以表明该目的地拥有深层链接。
@@ -73,13 +73,4 @@ PendingIntent pendingIntent = new NavDeepLinkBuilder(context)
 
 > **注意**：Android Studio 3.0 和 3.1 并不支持 `<nav-graph>` 元素。当使用这些版本时，您必须手动添加 `<intent-filter>` 元素。欲了解更多信息，请参阅 [为应用内容创建深层链接](https://developer.android.google.cn/training/app-links/deep-linking.html?hl=zh-cn)。
 
-
 欲获取一个完整的包含了深层链接例子的导航项目，请参阅 [Navigation 代码实验室](https://codelabs.developers.google.com/codelabs/android-navigation/?hl=zh-cn#0)。
-
-
-
-
-
-
-
-

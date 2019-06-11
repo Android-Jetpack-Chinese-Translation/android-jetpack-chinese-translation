@@ -5,11 +5,11 @@
 
 [Android Jetpack](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/ANDROID_JETPACK/A_Overview.md) 已内建了对切片的支持，并且可以向后兼容到 Android 4.4，因而覆盖到大约 95% 的 Android 用户。
 
-用户很快就能使用切片，但您现在就能[开始动手](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_20_Slices/3_20_2_Getting_started.md) 。
+用户很快就能使用切片，但您现在就能[开始动手](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_23_Slices/3_23_2_Getting_started.md) 。
 
 ## 丰富而灵活的布局
 
-使用[切片模板](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_20_Slices/3_20_3_Slice_templates.md)，您可以定制切片的颜色、文本、图像、视频等等，来匹配您应用的设计。
+使用[切片模板](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_23_Slices/3_23_3_Slice_templates.md)，您可以定制切片的颜色、文本、图像、视频等等，来匹配您应用的设计。
 
 ![](https://developer.android.google.cn/guide/slices/images/slices-landing-example-1.png?hl=zh-cn)
 

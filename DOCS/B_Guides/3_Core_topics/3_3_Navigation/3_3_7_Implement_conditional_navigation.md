@@ -9,4 +9,3 @@
 **图一：**有条件的导航
 
 该登录目的地应在用户回到个人主页目的地后，将自己从导航栈中出栈。请在导航回到原先的目的地时调用 [`popBackStack()`](https://developer.android.google.cn/reference/androidx/navigation/NavController.html?hl=zh-cn#popBackStack())，那么原先的目的地就会被顶到栈顶，因而处于活跃状态。
-

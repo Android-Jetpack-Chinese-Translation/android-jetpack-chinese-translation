@@ -3,7 +3,7 @@
 
 分页库可帮助您一次加载和显示少量数据。 按需加载部分数据可减少网络带宽和系统资源的使用。
 
-本指南提供了库的几个概念性示例，以讲解它如何工作。 要查看此库如何运行的完整示例，请尝试使用 codelab 或者从 [其他资源](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_7_Paging_library/3_2_7_1_Overview.md#其他资源) 中获取示例。
+本指南提供了库的几个概念性示例，以讲解它如何工作。 要查看此库如何运行的完整示例，请尝试使用 codelab 或者从 [其他资源](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_6_Paging_library/3_2_6_1_Overview.md#其他资源) 中获取示例。
 
 ## 分页库架构
 
@@ -33,7 +33,7 @@ public class ConcertViewModel extends ViewModel {
 
 每个 [`PagedList`](https://developer.android.google.cn/reference/android/arch/paging/PagedList) 实例都从相应的 [`DataSource`](https://developer.android.google.cn/reference/android/arch/paging/DataSource) 对象中加载应用数据的最新快照。数据从应用的后端服务器或数据库流向 `PagedList` 对象。
 
-以下示例使用 [Room 数据持久化库](https://developer.android.google.cn/training/data-storage/room) 来组织应用程序的数据，但如果您想使用其他方法存储数据，还可以提供自己的 [数据源工厂](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_7_Paging_library/3_2_7_3_Data_Components_and_Considerations.md#构建您自己的数据源)。
+以下示例使用 [Room 数据持久化库](https://developer.android.google.cn/training/data-storage/room) 来组织应用程序的数据，但如果您想使用其他方法存储数据，还可以提供自己的 [数据源工厂](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_6_Paging_library/3_2_6_3_Data_Components_and_Considerations.md#构建您自己的数据源)。
 
 ```java
 @Dao
@@ -45,13 +45,13 @@ public interface ConcertDao {
 }
 ```
 
-欲了解更多有关加载数据到 `PagedList` 对象的信息，请参阅[数据组件和注意事项](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_7_Paging_library/3_2_7_3_Data_Components_and_Considerations.md)。
+欲了解更多有关加载数据到 `PagedList` 对象的信息，请参阅[数据组件和注意事项](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_6_Paging_library/3_2_6_3_Data_Components_and_Considerations.md)。
 
 - UI
 
 `PagedList` 使用 `PagedListAdapter` 把数据条目（item）加载到 `RecyclerView` 中。这些类齐心协力地加载数据和展示结果，以及预读取视图内容，并负责绘制内容变化时的动画。
 
-欲了解更多信息，请参阅[界面组件和注意事项](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_7_Paging_library/3_2_7_2_UI_Components_and_Considerations.md)。
+欲了解更多信息，请参阅[界面组件和注意事项](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_6_Paging_library/3_2_6_2_UI_Components_and_Considerations.md)。
 
 ## 支持不同的数据架构
 
@@ -68,13 +68,13 @@ public interface ConcertDao {
 
 ### 只有网络
 
-欲展示从后端服务器获得的数据，请使用同步版本的 [Retrofit API](http://square.github.io/retrofit/) 来把信息加载到 [您自定义的 `DataSource` 对象](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_7_Paging_library/3_2_7_3_Data_Components_and_Considerations.md) 中。
+欲展示从后端服务器获得的数据，请使用同步版本的 [Retrofit API](http://square.github.io/retrofit/) 来把信息加载到 [您自定义的 `DataSource` 对象](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_6_Paging_library/3_2_6_3_Data_Components_and_Considerations.md) 中。
 
 > **注意**：分页库的 [`DataSource`](https://developer.android.google.cn/reference/android/arch/paging/DataSource) 对象并不提供任何错误处理的功能，因为不同的应用处理和表示错误的方法都不一样。如果发生了错误，请延迟处理结果回调，并过一会儿重试。有关此行为的示例，请参阅 [PagingWithNetwork sample](https://github.com/googlesamples/android-architecture-components/tree/master/PagingWithNetworkSample)。
 
 ### 只有数据库
 
-设置 `RecyclerView` 观测本地存储，最好使用 [Room 数据持久化库](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_8_Room_Persistence_Library.md)。这样的话，应用程序的数据库无论何时新增或修改了数据，这些变动都会自动反映到正在显示该数据的 `RecyclerView` 中。
+设置 `RecyclerView` 观测本地存储，最好使用 [Room 数据持久化库](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_7_Room_Persistence_Library.md)。这样的话，应用程序的数据库无论何时新增或修改了数据，这些变动都会自动反映到正在显示该数据的 `RecyclerView` 中。
 
 ### 网络和数据库都有
 
@@ -102,7 +102,7 @@ public interface ConcertDao {
 
 ### 使用 CursorAdapter 将数据游标（cursor）与列表视图相关联
 
-您的应用可以使用 [`CursorAdapter`](https://developer.android.google.cn/reference/android/widget/CursorAdapter) 来把 [`Cursor`](https://developer.android.google.cn/reference/android/database/Cursor) 的数据关联到 [`ListView`](https://developer.android.google.cn/reference/android/widget/ListView) 中。在这种情况下，您通常需要把应用中的列表 UI 容器从 `ListView` 迁移到 [`RecyclerView`](https://developer.android.google.cn/reference/android/support/v7/widget/RecyclerView)，然后根据 `Cursor` 是否访问的是 SQLite 数据库，来决定是把其组件替换成 [`Room`](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_8_Room_Persistence_Library.md) 还是 `PositionalDataSource`。
+您的应用可以使用 [`CursorAdapter`](https://developer.android.google.cn/reference/android/widget/CursorAdapter) 来把 [`Cursor`](https://developer.android.google.cn/reference/android/database/Cursor) 的数据关联到 [`ListView`](https://developer.android.google.cn/reference/android/widget/ListView) 中。在这种情况下，您通常需要把应用中的列表 UI 容器从 `ListView` 迁移到 [`RecyclerView`](https://developer.android.google.cn/reference/android/support/v7/widget/RecyclerView)，然后根据 `Cursor` 是否访问的是 SQLite 数据库，来决定是把其组件替换成 [`Room`](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_7_Room_Persistence_Library.md) 还是 `PositionalDataSource`。
 
 在某些情况下，例如使用 [`Spinner`](https://developer.android.google.cn/reference/android/widget/Spinner) 的时候，您只需提供适配器自身，某个库就会接着处理该适配器中加载的数据并展示给您。这时，把您适配器的数据的类型改成 [`LiveData<PagedList>`](https://developer.android.google.cn/reference/android/arch/lifecycle/LiveData)，然后将其包装到一个 [`ArrayAdapter`](https://developer.android.google.cn/reference/android/widget/ArrayAdapter) 对象里，最后再使用库将这些数据填充到 UI 中。
 
@@ -113,7 +113,7 @@ public interface ConcertDao {
 - **您的数据量可以特别巨大。** 使用分页库，您可以不停加载数据到分页中，直到耗尽数据源。
 - **您可以更轻易地观察数据。** 分页库能展示您应用的 ViewModel 中储存的可观察的数据结构。
 
-> **注意**：如果您的应用访问的是 SQLite 数据库，请参阅 [`Room 数据持久化库`](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_8_Room_Persistence_Library.md)。
+> **注意**：如果您的应用访问的是 SQLite 数据库，请参阅 [`Room 数据持久化库`](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_7_Room_Persistence_Library.md)。
 
 ## 数据库示例
 

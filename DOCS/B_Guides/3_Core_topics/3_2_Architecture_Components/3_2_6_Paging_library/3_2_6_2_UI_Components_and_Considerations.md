@@ -1,7 +1,7 @@
 # 界面组件和注意事项
 > 原文链接：[Paging library UI components and considerations  |  Android Developers](https://developer.android.google.cn/topic/libraries/architecture/paging/ui)
 
-本节教程是基于 [Paging 库概览](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_7_Paging_library/3_2_7_1_Overview.md)的，介绍了您应如何在应用 UI 中把列表的信息展示给用户，尤其是当这些信息变动时。
+本节教程是基于 [Paging 库概览](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_6_Paging_library/3_2_6_1_Overview.md)的，介绍了您应如何在应用 UI 中把列表的信息展示给用户，尤其是当这些信息变动时。
 
 ## 把 UI 连接到 ViewModel
 
@@ -80,7 +80,7 @@ public class ConcertAdapter
 - **无须加载进度条**：由于列表的大小是已知的，您无须再警告用户正在加载更多的项目，因为占位符本身就能传达这个信息。
 
 然而，在添加占位符的支持之间，请您谨记这些先决条件：
-- **要求有一个数量可数的数据集合**：[Room 数据持久化库](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_8_Room_Persistence_Library.md) 中的 `DataSource` 实例能高效地数清楚其项目的数量。然而，如果您使用的是一个自定义的本地存储解决方案、或是一个[只从网络加载数据的架构](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_7_Paging_library/3_2_7_1_Overview.md)，那么想要确定数据库中一共有多少个项目就可能会成本很高甚至不可能做到。
+- **要求有一个数量可数的数据集合**：[Room 数据持久化库](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_7_Room_Persistence_Library.md) 中的 `DataSource` 实例能高效地数清楚其项目的数量。然而，如果您使用的是一个自定义的本地存储解决方案、或是一个[只从网络加载数据的架构](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_6_Paging_library/3_2_6_1_Overview.md)，那么想要确定数据库中一共有多少个项目就可能会成本很高甚至不可能做到。
 - **要求适配器能处理未加载的数据项目**：您使用的用来把列表准备给 UI 填充的适配器或展示机制需要处理数据项目是 `null` 的情况。例如，当您绑定一个数据项目到 `ViewHolder` 时，您需要提供表示未加载数据的缺省值。
 - **要求数据项目的视图有着相同的尺寸**：如果列表项目的大小会根据其内容而变动，例如社交网络的更新，那么这些项目彼此淡入淡出的效果就有点尴尬了。我们强烈建议在这种情况下禁用占位符功能。
 

@@ -121,6 +121,3 @@
         tools:layout="@layout/fragment_included_start" />
 </navigation>
 ```
-
-
-

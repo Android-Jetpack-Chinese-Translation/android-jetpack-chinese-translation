@@ -1,13 +1,13 @@
 # 数据组件和注意事项
 > 原文链接：[Paging library data components and considerations  |  Android Developers](https://developer.android.google.cn/topic/libraries/architecture/paging/data)
 
-本节教程是基于 [Paging 库概览](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_7_Paging_library/3_2_7_1_Overview.md)的，介绍了您应如何根据您应用的架构来自定义数据加载的解决方案。
+本节教程是基于 [Paging 库概览](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_6_Paging_library/3_2_6_1_Overview.md)的，介绍了您应如何根据您应用的架构来自定义数据加载的解决方案。
 
 ## 构建一个可观测的列表
 
 通常情况下，您的 UI 代码观察 `ViewModel` 中的一个 `LiveData<PagedList>` 对象（或者，如果您用的是 RxJava2 的话，`Flowable<PagedList>` 或 `Observable<PagedList>` 对象）。该对象把您应用的列表数据内容连接到展示层。
 
-欲创建这样的一个 `PagedList` 对象，把 [`DataSource.Factory`](https://developer.android.google.cn/reference/android/arch/paging/DataSource.Factory?hl=zh-cn) 的实例传入 [`LivePagedListBuilder`](https://developer.android.google.cn/reference/android/arch/paging/LivePagedListBuilder?hl=zh-cn) 或 [`RxPagedListBuilder`](https://developer.android.google.cn/reference/android/arch/paging/RxPagedListBuilder?hl=zh-cn) 对象。一个 `DataSource` 对象负责把页面加载到单个 `PagedList` 中，而其工厂类根据内容的更新来创建 `PagedList` 的新实例。[Room 数据持久化库](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_8_Room_Persistence_Library.md)提供了 `DataSource.Factory`，但你也可以自己来定制。
+欲创建这样的一个 `PagedList` 对象，把 [`DataSource.Factory`](https://developer.android.google.cn/reference/android/arch/paging/DataSource.Factory?hl=zh-cn) 的实例传入 [`LivePagedListBuilder`](https://developer.android.google.cn/reference/android/arch/paging/LivePagedListBuilder?hl=zh-cn) 或 [`RxPagedListBuilder`](https://developer.android.google.cn/reference/android/arch/paging/RxPagedListBuilder?hl=zh-cn) 对象。一个 `DataSource` 对象负责把页面加载到单个 `PagedList` 中，而其工厂类根据内容的更新来创建 `PagedList` 的新实例。[Room 数据持久化库](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_7_Room_Persistence_Library.md)提供了 `DataSource.Factory`，但你也可以自己来定制。
 
 如下的代码展示如何使用 Room 的 [`DataSource.Factory`](https://developer.android.google.cn/reference/android/arch/paging/DataSource.Factory?hl=zh-cn) 的构造能力，来在您应用的 `ViewModel` 中创建 `LiveData<PagedList>` 实例：
 
@@ -37,7 +37,7 @@ LiveData<PagedList<Concert>> concertList =
 欲配置 `LiveData<PagedList>` 来处理更复杂的情形，您还能定义自己的分页配置。特别地，您可以定义如下属性：
 - **[分页大小](https://developer.android.google.cn/reference/android/arch/paging/PagedList.Config.Builder#setPageSize%28int%29)**：每一页数据项目的数量。
 - **[预加载的阈值](https://developer.android.google.cn/reference/android/arch/paging/PagedList.Config.Builder#setPrefetchDistance%28int%29)**：分页库在距离应用 UI 中的最后一个可见的数据项该阈值个项目时开始预加载。该阈值应当是分页大小的若干倍。
-- **[占位符是否存在](https://developer.android.google.cn/reference/android/arch/paging/PagedList.Config.Builder#setEnablePlaceholders%28boolean%29)**：决定 UI 是否应为还未加载完毕的列表项目展示占位符。欲了解使用占位符的优缺点讨论，请参阅 [为您的 UI 提供占位符](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_7_Paging_library/3_2_7_2_UI_Components_and_Considerations.md)。
+- **[占位符是否存在](https://developer.android.google.cn/reference/android/arch/paging/PagedList.Config.Builder#setEnablePlaceholders%28boolean%29)**：决定 UI 是否应为还未加载完毕的列表项目展示占位符。欲了解使用占位符的优缺点讨论，请参阅 [为您的 UI 提供占位符](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_6_Paging_library/3_2_6_2_UI_Components_and_Considerations.md)。
 
 如果您想在分页库从数据库中加载一个列表时获得更多掌控，请将一个自定义的 [`Executor`](https://developer.android.google.cn/reference/java/util/concurrent/Executor?hl=zh-cn) 对象传入 [`LivePagedListBuilder`](https://developer.android.google.cn/reference/android/arch/paging/LivePagedListBuilder?hl=zh-cn)，如下所示：
 
@@ -124,7 +124,7 @@ public class ConcertTimeDataSourceFactory
 
 ## 考虑内容更新是如何工作的
 
-当您构建可观察的 `PagedList` 对象时，考虑内容更新是如何工作的。如果您是直接从一个 [Room 数据持久化库](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_8_Room_Persistence_Library.md) 加载数据，那么内容更新就会被自动推送到您应用的 UI。
+当您构建可观察的 `PagedList` 对象时，考虑内容更新是如何工作的。如果您是直接从一个 [Room 数据持久化库](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_7_Room_Persistence_Library.md) 加载数据，那么内容更新就会被自动推送到您应用的 UI。
 
 如果您使用的是网络 API，那么一般都会使用”下拉刷新“这样的用户操作，来充当作废当前 `DataSource` 并请求新数据的信号。如下的代码展示了这种行为：
 

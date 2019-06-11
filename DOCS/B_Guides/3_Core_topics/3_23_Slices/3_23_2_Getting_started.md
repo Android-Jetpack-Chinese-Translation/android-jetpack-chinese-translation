@@ -1,7 +1,7 @@
 # 开始动手
 > 原文链接：[Getting Started  |  Android Developers](https://developer.android.google.cn/guide/slices/getting-started)
 
-本节展示了如何在您的应用中设置环境并开发[切片](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_20_Slices/3_20_1_Overview.md)。
+本节展示了如何在您的应用中设置环境并开发[切片](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_23_Slices/3_23_1_Overview.md)。
 
 > **注意**：Android Studio 3.2 及更新版本包含了帮您开发切片的额外工具和功能。
 
@@ -312,6 +312,4 @@ class MyBroadcastReceiver : BroadcastReceiver() {
 
 ## 切片模板
 
-切片支持一系列模板。欲了解更多有关模板选项和行为的信息，请参阅[切片模板](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_20_Slices/3_20_3_Slice_templates.md)。
-
-
+切片支持一系列模板。欲了解更多有关模板选项和行为的信息，请参阅[切片模板](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_23_Slices/3_23_3_Slice_templates.md)。

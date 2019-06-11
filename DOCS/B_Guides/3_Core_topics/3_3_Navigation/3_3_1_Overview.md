@@ -11,7 +11,7 @@ Navigation 处理您应用的 *目的地（destination）* 之间的导航，即
 
 * Activity。
 * 导航图（graph）和子图（subgraph）：当目的地是图/子图时，用户被导航到该图/子图的起始目的地。
-* [自定义的目的地类型](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_6_Navigation/3_2_6_6_Add_support_for_new_destination.md)
+* [自定义的目的地类型](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_3_Navigation/3_3_6_Add_support_for_new_destination.md)
 
 这些目的地是通过 *动作（action）* 连接起来的。一组目的地及其之间的动作构成了一个应用的 *导航图（navigation graph）*。
 
@@ -22,7 +22,7 @@ Navigation 架构组件还提供了如下所示的其他好处：
 * 为动画和转场（transition）提供标准化的资源。
 * 把深层链接（deep link）作为一级操作来对待。
 * 以最小的额外代价，提供诸如导航抽屉和底部导航栏等导航 UI 样式。
-* 使用 Android Studio 的 [Navigation 编辑器](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_6_Navigation/3_2_6_2_Implement_Navigation_with_the_Navigation_Architecture_Component.md) 来可视化编辑导航图。
+* 使用 Android Studio 的 [Navigation 编辑器](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_3_Navigation/3_3_2_Implement_Navigation_with_the_Navigation_Architecture_Component.md) 来可视化编辑导航图。
 
 > **注意**：欲在 Android Studio 中使用 Navigation 架构组件，您必须使用 Android Studio 3.3 或更高版本。
 
@@ -55,9 +55,8 @@ Navigation 架构组件是基于以下的设计原则：
 ## 开始动手
 
 * [Navigation 代码实验室](https://codelabs.developers.google.com/codelabs/android-navigation?hl=zh-cn)
-*  [用 Navigation 架构组件来实现导航](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_6_Navigation/3_2_6_2_Implement_Navigation_with_the_Navigation_Architecture_Component.md)
+* [用 Navigation 架构组件来实现导航](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_3_Navigation/3_3_2_Implement_Navigation_with_the_Navigation_Architecture_Component.md)
 
 ## 其他资源
 
 * [Android Jetpack：使用 Navigation 控制器来管理 UI 导航](https://www.youtube.com/watch?v=8GCXtCjtg40&hl=zh-cn)
-

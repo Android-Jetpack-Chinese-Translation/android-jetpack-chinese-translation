@@ -1,7 +1,7 @@
 # Room 数据持久化库
 > 原文链接：[Room Persistence Library  |  Android Developers](https://developer.android.google.cn/topic/libraries/architecture/room)
 
-[Room](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_8_App_data_&_files/3_8_5_Save_data_in_a_local_database/3_8_5_1_Overview.md) 数据持久化库提供了一个基于 SQLite 的抽象层，以便在利用 SQLite 全部功能的同时实现更稳健的数据库访问。
+[Room](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_10_App_data_%26_files/3_10_5_Save_data_in_a_local_database/3_8_5_5_Save_data_in_a_local_database/3_8_5_5_1_Overview.md) 数据持久化库提供了一个基于 SQLite 的抽象层，以便在利用 SQLite 全部功能的同时实现更稳健的数据库访问。
 
 该库帮您在设备上创建您应用数据的缓存，并让该缓存充当您应用的唯一数据来源，从而让用户能访问到关键信息的一致性副本，无论他是否有网络连接。
 

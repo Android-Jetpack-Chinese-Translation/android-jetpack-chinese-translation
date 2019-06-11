@@ -5,7 +5,7 @@
 
 本小节的话题包括了最基础的 WorkManager 特性。您将学会如何设定一个任务、指定其执行的条件以及交由系统处理。您还将学会如何设定重复任务。
 
-欲了解更多关于 WorkManager 的进阶知识，例如链式任务、传递并返回值等等，请参阅 [WorkManager 高级进阶](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_10_WorkManager/3_2_10_3_Advanced.md)。欲了解全部细节，请参阅 [WorkManager 参考文档](https://developer.android.google.cn/reference/androidx/work/package-summary)。
+欲了解更多关于 WorkManager 的进阶知识，例如链式任务、传递并返回值等等，请参阅 [WorkManager 高级进阶](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_9_WorkManager/3_2_9_3_Advanced.md)。欲了解全部细节，请参阅 [WorkManager 参考文档](https://developer.android.google.cn/reference/androidx/work/package-summary)。
 
 > **注意**：欲将 WorkManager 库导入您的 Android 项目，请参阅[为您的项目添加 Android 架构组件](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_2_Adding_Components_to_your_Project.md)。
 
@@ -107,7 +107,7 @@ UUID compressionWorkId = compressionWork.getId();
 WorkManager.getInstance().cancelWorkById(compressionWorkId);
 ```
 
-[`WorkManager`](https://developer.android.google.cn/reference/androidx/work/WorkManager.html) 会尽其所能地取消任务，但这从本质上来说还是不确定的——在您试图取消该任务时，它可能已经在执行或完成了。[`WorkManager`](https://developer.android.google.cn/reference/androidx/work/WorkManager.html) 还提供了取消一个 [唯一任务序列](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_10_WorkManager/3_2_10_3_Advanced.md) 当中、或有特定 [标签](https://developer.android.google.cn/topic/libraries/architecture/workmanager/basics#tag)（Tag）的全部任务的方法——当然，这仍只是尽力而为。
+[`WorkManager`](https://developer.android.google.cn/reference/androidx/work/WorkManager.html) 会尽其所能地取消任务，但这从本质上来说还是不确定的——在您试图取消该任务时，它可能已经在执行或完成了。[`WorkManager`](https://developer.android.google.cn/reference/androidx/work/WorkManager.html) 还提供了取消一个 [唯一任务序列](https://github.com/Android-Jetpack-Chinese-Translation/android-jetpack-chinese-translation/blob/master/DOCS/B_Guides/3_Core_topics/3_2_Architecture_Components/3_2_9_WorkManager/3_2_9_3_Advanced.md) 当中、或有特定 [标签](https://developer.android.google.cn/topic/libraries/architecture/workmanager/basics#tag)（Tag）的全部任务的方法——当然，这仍只是尽力而为。
 
 ## 加注标签（Tag）的任务
 
